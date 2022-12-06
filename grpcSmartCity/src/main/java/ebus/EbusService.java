@@ -10,7 +10,7 @@ public class EbusService extends ebusImplBase {
 
 	@Override
 	public void getTimetable(busNumber request, StreamObserver<Timetable> responseObserver) {
-	
+	    
 	}
 
 }
