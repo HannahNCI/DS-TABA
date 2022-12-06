@@ -4,6 +4,7 @@ com\smartcityDS\ebusGrpc$ebusFutureStub.class
 com\smartcityDS\pluginGrpc$pluginBaseDescriptorSupplier.class
 com\smartcityDS\pluginGrpc$MethodHandlers.class
 com\smartcityDS\APIResponseOrBuilder.class
+escooter\EscooterService.class
 com\smartcityDS\Timetable$Builder.class
 com\smartcityDS\Empty$Builder.class
 com\smartcityDS\ebusGrpc$1.class
@@ -18,6 +19,7 @@ com\smartcityDS\rentalDuration$1.class
 com\smartcityDS\ebusGrpc$ebusBlockingStub.class
 com\smartcityDS\ebusGrpc$ebusStub.class
 com\smartcityDS\rentalDuration.class
+ebus\EbusService.class
 com\smartcityDS\numberofSeatsOrBuilder.class
 com\smartcityDS\usbPortsOrBuilder.class
 com\smartcityDS\cityName.class
@@ -67,10 +69,12 @@ com\smartcityDS\APIResponse$Builder.class
 com\smartcityDS\rentalCost$1.class
 com\smartcityDS\Escooter$1.class
 com\smartcityDS\cityNameOrBuilder.class
+ecar\EcarService.class
 com\smartcityDS\ebusGrpc$ebusImplBase.class
 com\smartcityDS\Empty$1.class
 com\smartcityDS\numberAvailable$Builder.class
 com\smartcityDS\electricscootersGrpc$electricscootersStub.class
+user\UserService.class
 com\smartcityDS\electricscootersGrpc$electricscootersBlockingStub.class
 com\smartcityDS\cityName$1.class
 com\smartcityDS\userGrpc$userBaseDescriptorSupplier.class
