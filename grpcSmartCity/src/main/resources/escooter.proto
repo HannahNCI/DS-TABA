@@ -3,20 +3,20 @@ option java_multiple_files = true;
 option java_package = "com.smartcityDS";
 
 service electricscooters{
- //add content here to link to the rpc methods
+rpc getAvailability(locationPrecise) returns(numberAvailable);
 }
-message PreciseScooterLocation{
- string PreciseScooterLocation = 1;
+message locationPrecise{
+ string locationPrecise = 1;
 }
-message RentalCost{
- string RentalCost = 1;
-}
-
-message NumberOfScootersAvailabile{
- string NumberOfScootersAvailable = 1;
+message rentalCost{
+ string rentalCost = 1;
 }
 
-message RentalDurationTime{
- string RentalDurationTime = 1;
+message numberAvailable{
+ string numberAvailable = 1;
+}
+
+message rentalDuration{
+ string rentalDuration = 1;
 }
 

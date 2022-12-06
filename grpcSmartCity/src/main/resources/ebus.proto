@@ -3,22 +3,26 @@ option java_multiple_files = true;
 option java_package = "com.smartcityDS";
 
 service ebus{
- //add content here to link to the rpc methods
+ rpc getTimetable(busNumber) returns(Timetable);
 }
 
 message Timetable{
  string Timetable = 1;
 }
 
-message NumberofSeatsAvailable{
- string NumberofSeatsAvailable = 1;
+message busstopLocation{
+	string busstopLocation = 1;
 }
 
-message USBPortAvailability{
- string USBPortAvailability = 1;
+message busNumber{
+	string busNumber = 1;
 }
 
-message TripDuration{
- string TripDuration = 1;
+message numberofSeats{
+ string numberofSeats = 1;
+}
+
+message usbPorts{
+ string usbPorts = 1;
 }
 

@@ -1,0 +1,23 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "com.smartcityDS";
+
+service plugin{
+ //add content here to link to the rpc methods
+}
+
+message CityName{
+ string CityName = 1;
+}
+
+message PreciseLocation{
+ string PreciseLocation = 1;
+}
+
+message NumberofChargingPoints{
+ string NumberOfChargingPoints = 1;
+}
+
+message ChargingDuration{
+ string ChargingDuration = 1;
+}
