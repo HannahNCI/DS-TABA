@@ -1,0 +1,22 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "com.smartcityDS";
+
+service electricscooters{
+ //add content here to link to the rpc methods
+}
+message PreciseScooterLocation{
+ string PreciseScooterLocation = 1;
+}
+message RentalCost{
+ string RentalCost = 1;
+}
+
+message NumberOfScootersAvailabile{
+ string NumberOfScootersAvailable = 1;
+}
+
+message RentalDurationTime{
+ string RentalDurationTime = 1;
+}
+
