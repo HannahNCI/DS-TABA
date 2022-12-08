@@ -4,6 +4,8 @@ option java_package = "com.smartcityDS";
 
 service ebus{
  rpc getTimetable(busNumber) returns(Timetable);
+ rpc getNumberofSeats(busstopLocation) returns(numberofSeats);
+ rpc getUsbPortsAvailable(busNumber) returns(usbPorts);
 }
 
 message Timetable{

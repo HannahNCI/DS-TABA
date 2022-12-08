@@ -1,0 +1,9 @@
+package server;
+import java.io.IOException;
+
+import io.grpc.Server;
+import io.grpc.ServerBuilder;
+import Ebus.EbusService;
+public class busServer {
+
+}

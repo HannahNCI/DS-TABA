@@ -59,6 +59,70 @@ public final class ebusGrpc {
      return getGetTimetableMethod;
   }
 
+  private static volatile io.grpc.MethodDescriptor<com.smartcityDS.busstopLocation,
+      com.smartcityDS.numberofSeats> getGetNumberofSeatsMethod;
+
+  @io.grpc.stub.annotations.RpcMethod(
+      fullMethodName = SERVICE_NAME + '/' + "getNumberofSeats",
+      requestType = com.smartcityDS.busstopLocation.class,
+      responseType = com.smartcityDS.numberofSeats.class,
+      methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
+  public static io.grpc.MethodDescriptor<com.smartcityDS.busstopLocation,
+      com.smartcityDS.numberofSeats> getGetNumberofSeatsMethod() {
+    io.grpc.MethodDescriptor<com.smartcityDS.busstopLocation, com.smartcityDS.numberofSeats> getGetNumberofSeatsMethod;
+    if ((getGetNumberofSeatsMethod = ebusGrpc.getGetNumberofSeatsMethod) == null) {
+      synchronized (ebusGrpc.class) {
+        if ((getGetNumberofSeatsMethod = ebusGrpc.getGetNumberofSeatsMethod) == null) {
+          ebusGrpc.getGetNumberofSeatsMethod = getGetNumberofSeatsMethod = 
+              io.grpc.MethodDescriptor.<com.smartcityDS.busstopLocation, com.smartcityDS.numberofSeats>newBuilder()
+              .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
+              .setFullMethodName(generateFullMethodName(
+                  "ebus", "getNumberofSeats"))
+              .setSampledToLocalTracing(true)
+              .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  com.smartcityDS.busstopLocation.getDefaultInstance()))
+              .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  com.smartcityDS.numberofSeats.getDefaultInstance()))
+                  .setSchemaDescriptor(new ebusMethodDescriptorSupplier("getNumberofSeats"))
+                  .build();
+          }
+        }
+     }
+     return getGetNumberofSeatsMethod;
+  }
+
+  private static volatile io.grpc.MethodDescriptor<com.smartcityDS.busNumber,
+      com.smartcityDS.usbPorts> getGetUsbPortsAvailableMethod;
+
+  @io.grpc.stub.annotations.RpcMethod(
+      fullMethodName = SERVICE_NAME + '/' + "getUsbPortsAvailable",
+      requestType = com.smartcityDS.busNumber.class,
+      responseType = com.smartcityDS.usbPorts.class,
+      methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
+  public static io.grpc.MethodDescriptor<com.smartcityDS.busNumber,
+      com.smartcityDS.usbPorts> getGetUsbPortsAvailableMethod() {
+    io.grpc.MethodDescriptor<com.smartcityDS.busNumber, com.smartcityDS.usbPorts> getGetUsbPortsAvailableMethod;
+    if ((getGetUsbPortsAvailableMethod = ebusGrpc.getGetUsbPortsAvailableMethod) == null) {
+      synchronized (ebusGrpc.class) {
+        if ((getGetUsbPortsAvailableMethod = ebusGrpc.getGetUsbPortsAvailableMethod) == null) {
+          ebusGrpc.getGetUsbPortsAvailableMethod = getGetUsbPortsAvailableMethod = 
+              io.grpc.MethodDescriptor.<com.smartcityDS.busNumber, com.smartcityDS.usbPorts>newBuilder()
+              .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
+              .setFullMethodName(generateFullMethodName(
+                  "ebus", "getUsbPortsAvailable"))
+              .setSampledToLocalTracing(true)
+              .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  com.smartcityDS.busNumber.getDefaultInstance()))
+              .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  com.smartcityDS.usbPorts.getDefaultInstance()))
+                  .setSchemaDescriptor(new ebusMethodDescriptorSupplier("getUsbPortsAvailable"))
+                  .build();
+          }
+        }
+     }
+     return getGetUsbPortsAvailableMethod;
+  }
+
   /**
    * Creates a new async stub that supports all call types for the service
    */
@@ -93,6 +157,20 @@ public final class ebusGrpc {
       asyncUnimplementedUnaryCall(getGetTimetableMethod(), responseObserver);
     }
 
+    /**
+     */
+    public void getNumberofSeats(com.smartcityDS.busstopLocation request,
+        io.grpc.stub.StreamObserver<com.smartcityDS.numberofSeats> responseObserver) {
+      asyncUnimplementedUnaryCall(getGetNumberofSeatsMethod(), responseObserver);
+    }
+
+    /**
+     */
+    public void getUsbPortsAvailable(com.smartcityDS.busNumber request,
+        io.grpc.stub.StreamObserver<com.smartcityDS.usbPorts> responseObserver) {
+      asyncUnimplementedUnaryCall(getGetUsbPortsAvailableMethod(), responseObserver);
+    }
+
     @java.lang.Override public final io.grpc.ServerServiceDefinition bindService() {
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
           .addMethod(
@@ -102,6 +180,20 @@ public final class ebusGrpc {
                 com.smartcityDS.busNumber,
                 com.smartcityDS.Timetable>(
                   this, METHODID_GET_TIMETABLE)))
+          .addMethod(
+            getGetNumberofSeatsMethod(),
+            asyncUnaryCall(
+              new MethodHandlers<
+                com.smartcityDS.busstopLocation,
+                com.smartcityDS.numberofSeats>(
+                  this, METHODID_GET_NUMBEROF_SEATS)))
+          .addMethod(
+            getGetUsbPortsAvailableMethod(),
+            asyncUnaryCall(
+              new MethodHandlers<
+                com.smartcityDS.busNumber,
+                com.smartcityDS.usbPorts>(
+                  this, METHODID_GET_USB_PORTS_AVAILABLE)))
           .build();
     }
   }
@@ -131,6 +223,22 @@ public final class ebusGrpc {
       asyncUnaryCall(
           getChannel().newCall(getGetTimetableMethod(), getCallOptions()), request, responseObserver);
     }
+
+    /**
+     */
+    public void getNumberofSeats(com.smartcityDS.busstopLocation request,
+        io.grpc.stub.StreamObserver<com.smartcityDS.numberofSeats> responseObserver) {
+      asyncUnaryCall(
+          getChannel().newCall(getGetNumberofSeatsMethod(), getCallOptions()), request, responseObserver);
+    }
+
+    /**
+     */
+    public void getUsbPortsAvailable(com.smartcityDS.busNumber request,
+        io.grpc.stub.StreamObserver<com.smartcityDS.usbPorts> responseObserver) {
+      asyncUnaryCall(
+          getChannel().newCall(getGetUsbPortsAvailableMethod(), getCallOptions()), request, responseObserver);
+    }
   }
 
   /**
@@ -156,6 +264,20 @@ public final class ebusGrpc {
     public com.smartcityDS.Timetable getTimetable(com.smartcityDS.busNumber request) {
       return blockingUnaryCall(
           getChannel(), getGetTimetableMethod(), getCallOptions(), request);
+    }
+
+    /**
+     */
+    public com.smartcityDS.numberofSeats getNumberofSeats(com.smartcityDS.busstopLocation request) {
+      return blockingUnaryCall(
+          getChannel(), getGetNumberofSeatsMethod(), getCallOptions(), request);
+    }
+
+    /**
+     */
+    public com.smartcityDS.usbPorts getUsbPortsAvailable(com.smartcityDS.busNumber request) {
+      return blockingUnaryCall(
+          getChannel(), getGetUsbPortsAvailableMethod(), getCallOptions(), request);
     }
   }
 
@@ -184,9 +306,27 @@ public final class ebusGrpc {
       return futureUnaryCall(
           getChannel().newCall(getGetTimetableMethod(), getCallOptions()), request);
     }
+
+    /**
+     */
+    public com.google.common.util.concurrent.ListenableFuture<com.smartcityDS.numberofSeats> getNumberofSeats(
+        com.smartcityDS.busstopLocation request) {
+      return futureUnaryCall(
+          getChannel().newCall(getGetNumberofSeatsMethod(), getCallOptions()), request);
+    }
+
+    /**
+     */
+    public com.google.common.util.concurrent.ListenableFuture<com.smartcityDS.usbPorts> getUsbPortsAvailable(
+        com.smartcityDS.busNumber request) {
+      return futureUnaryCall(
+          getChannel().newCall(getGetUsbPortsAvailableMethod(), getCallOptions()), request);
+    }
   }
 
   private static final int METHODID_GET_TIMETABLE = 0;
+  private static final int METHODID_GET_NUMBEROF_SEATS = 1;
+  private static final int METHODID_GET_USB_PORTS_AVAILABLE = 2;
 
   private static final class MethodHandlers<Req, Resp> implements
       io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
@@ -208,6 +348,14 @@ public final class ebusGrpc {
         case METHODID_GET_TIMETABLE:
           serviceImpl.getTimetable((com.smartcityDS.busNumber) request,
               (io.grpc.stub.StreamObserver<com.smartcityDS.Timetable>) responseObserver);
+          break;
+        case METHODID_GET_NUMBEROF_SEATS:
+          serviceImpl.getNumberofSeats((com.smartcityDS.busstopLocation) request,
+              (io.grpc.stub.StreamObserver<com.smartcityDS.numberofSeats>) responseObserver);
+          break;
+        case METHODID_GET_USB_PORTS_AVAILABLE:
+          serviceImpl.getUsbPortsAvailable((com.smartcityDS.busNumber) request,
+              (io.grpc.stub.StreamObserver<com.smartcityDS.usbPorts>) responseObserver);
           break;
         default:
           throw new AssertionError();
@@ -271,6 +419,8 @@ public final class ebusGrpc {
           serviceDescriptor = result = io.grpc.ServiceDescriptor.newBuilder(SERVICE_NAME)
               .setSchemaDescriptor(new ebusFileDescriptorSupplier())
               .addMethod(getGetTimetableMethod())
+              .addMethod(getGetNumberofSeatsMethod())
+              .addMethod(getGetUsbPortsAvailableMethod())
               .build();
         }
       }

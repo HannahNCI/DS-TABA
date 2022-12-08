@@ -47,10 +47,12 @@ public final class Escooter {
       "ocationPrecise\030\001 \001(\t\" \n\nrentalCost\022\022\n\nre" +
       "ntalCost\030\001 \001(\t\"*\n\017numberAvailable\022\027\n\017num" +
       "berAvailable\030\001 \001(\t\"(\n\016rentalDuration\022\026\n\016" +
-      "rentalDuration\030\001 \001(\t2I\n\020electricscooters" +
-      "\0225\n\017getAvailability\022\020.locationPrecise\032\020." +
-      "numberAvailableB\023\n\017com.smartcityDSP\001b\006pr" +
-      "oto3"
+      "rentalDuration\030\001 \001(\t2\261\001\n\020electricscooter" +
+      "s\0225\n\017getAvailability\022\020.locationPrecise\032\020" +
+      ".numberAvailable\022.\n\rgetRentalCost\022\020.loca" +
+      "tionPrecise\032\013.rentalCost\0226\n\021getRentalDur" +
+      "ation\022\020.locationPrecise\032\017.rentalDuration" +
+      "B\023\n\017com.smartcityDSP\001b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

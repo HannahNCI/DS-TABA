@@ -3,7 +3,8 @@ option java_multiple_files = true;
 option java_package = "com.smartcityDS";
 
 service plugin{
- rpc getAvailability(preciseLocation) returns(numberofchargingPoints);
+ rpc getAvailabilePoints(preciseLocation) returns(numberofchargingPoints);
+ rpc getChargingDuration(preciseLocation) returns(chargingDuration);
 }
 
 message cityName{

@@ -47,10 +47,11 @@ public final class Ecar {
       "(\t\"*\n\017preciseLocation\022\027\n\017preciseLocation" +
       "\030\001 \001(\t\"8\n\026numberofchargingPoints\022\036\n\026numb" +
       "erofchargingPoints\030\001 \001(\t\",\n\020chargingDura" +
-      "tion\022\030\n\020chargingDuration\030\001 \001(\t2F\n\006plugin" +
-      "\022<\n\017getAvailability\022\020.preciseLocation\032\027." +
-      "numberofchargingPointsB\023\n\017com.smartcityD" +
-      "SP\001b\006proto3"
+      "tion\022\030\n\020chargingDuration\030\001 \001(\t2\206\001\n\006plugi" +
+      "n\022@\n\023getAvailabilePoints\022\020.preciseLocati" +
+      "on\032\027.numberofchargingPoints\022:\n\023getChargi" +
+      "ngDuration\022\020.preciseLocation\032\021.chargingD" +
+      "urationB\023\n\017com.smartcityDSP\001b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

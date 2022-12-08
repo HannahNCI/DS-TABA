@@ -1,0 +1,30 @@
+package server;
+
+import javax.jmdns.JmDNS;
+import javax.jmdns.ServiceInfo;
+
+import com.smartcityDS.userGrpc.userImplBase;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.InetAddress;
+import java.util.Properties;
+import ebus.EbusService;
+import io.grpc.Server;
+import io.grpc.ServerBuilder;
+import io.grpc.Server;
+import io.grpc.ServerBuilder;
+
+import javax.jmdns.JmDNS;
+import javax.jmdns.ServiceInfo;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.InetAddress;
+import java.util.Properties;
+import user.UserService;
+
+public class userServer {
+
+}

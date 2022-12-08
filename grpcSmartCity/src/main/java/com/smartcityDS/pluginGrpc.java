@@ -28,35 +28,67 @@ public final class pluginGrpc {
 
   // Static method descriptors that strictly reflect the proto.
   private static volatile io.grpc.MethodDescriptor<com.smartcityDS.preciseLocation,
-      com.smartcityDS.numberofchargingPoints> getGetAvailabilityMethod;
+      com.smartcityDS.numberofchargingPoints> getGetAvailabilePointsMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
-      fullMethodName = SERVICE_NAME + '/' + "getAvailability",
+      fullMethodName = SERVICE_NAME + '/' + "getAvailabilePoints",
       requestType = com.smartcityDS.preciseLocation.class,
       responseType = com.smartcityDS.numberofchargingPoints.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
   public static io.grpc.MethodDescriptor<com.smartcityDS.preciseLocation,
-      com.smartcityDS.numberofchargingPoints> getGetAvailabilityMethod() {
-    io.grpc.MethodDescriptor<com.smartcityDS.preciseLocation, com.smartcityDS.numberofchargingPoints> getGetAvailabilityMethod;
-    if ((getGetAvailabilityMethod = pluginGrpc.getGetAvailabilityMethod) == null) {
+      com.smartcityDS.numberofchargingPoints> getGetAvailabilePointsMethod() {
+    io.grpc.MethodDescriptor<com.smartcityDS.preciseLocation, com.smartcityDS.numberofchargingPoints> getGetAvailabilePointsMethod;
+    if ((getGetAvailabilePointsMethod = pluginGrpc.getGetAvailabilePointsMethod) == null) {
       synchronized (pluginGrpc.class) {
-        if ((getGetAvailabilityMethod = pluginGrpc.getGetAvailabilityMethod) == null) {
-          pluginGrpc.getGetAvailabilityMethod = getGetAvailabilityMethod = 
+        if ((getGetAvailabilePointsMethod = pluginGrpc.getGetAvailabilePointsMethod) == null) {
+          pluginGrpc.getGetAvailabilePointsMethod = getGetAvailabilePointsMethod = 
               io.grpc.MethodDescriptor.<com.smartcityDS.preciseLocation, com.smartcityDS.numberofchargingPoints>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
-                  "plugin", "getAvailability"))
+                  "plugin", "getAvailabilePoints"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   com.smartcityDS.preciseLocation.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   com.smartcityDS.numberofchargingPoints.getDefaultInstance()))
-                  .setSchemaDescriptor(new pluginMethodDescriptorSupplier("getAvailability"))
+                  .setSchemaDescriptor(new pluginMethodDescriptorSupplier("getAvailabilePoints"))
                   .build();
           }
         }
      }
-     return getGetAvailabilityMethod;
+     return getGetAvailabilePointsMethod;
+  }
+
+  private static volatile io.grpc.MethodDescriptor<com.smartcityDS.preciseLocation,
+      com.smartcityDS.chargingDuration> getGetChargingDurationMethod;
+
+  @io.grpc.stub.annotations.RpcMethod(
+      fullMethodName = SERVICE_NAME + '/' + "getChargingDuration",
+      requestType = com.smartcityDS.preciseLocation.class,
+      responseType = com.smartcityDS.chargingDuration.class,
+      methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
+  public static io.grpc.MethodDescriptor<com.smartcityDS.preciseLocation,
+      com.smartcityDS.chargingDuration> getGetChargingDurationMethod() {
+    io.grpc.MethodDescriptor<com.smartcityDS.preciseLocation, com.smartcityDS.chargingDuration> getGetChargingDurationMethod;
+    if ((getGetChargingDurationMethod = pluginGrpc.getGetChargingDurationMethod) == null) {
+      synchronized (pluginGrpc.class) {
+        if ((getGetChargingDurationMethod = pluginGrpc.getGetChargingDurationMethod) == null) {
+          pluginGrpc.getGetChargingDurationMethod = getGetChargingDurationMethod = 
+              io.grpc.MethodDescriptor.<com.smartcityDS.preciseLocation, com.smartcityDS.chargingDuration>newBuilder()
+              .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
+              .setFullMethodName(generateFullMethodName(
+                  "plugin", "getChargingDuration"))
+              .setSampledToLocalTracing(true)
+              .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  com.smartcityDS.preciseLocation.getDefaultInstance()))
+              .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  com.smartcityDS.chargingDuration.getDefaultInstance()))
+                  .setSchemaDescriptor(new pluginMethodDescriptorSupplier("getChargingDuration"))
+                  .build();
+          }
+        }
+     }
+     return getGetChargingDurationMethod;
   }
 
   /**
@@ -88,20 +120,34 @@ public final class pluginGrpc {
 
     /**
      */
-    public void getAvailability(com.smartcityDS.preciseLocation request,
+    public void getAvailabilePoints(com.smartcityDS.preciseLocation request,
         io.grpc.stub.StreamObserver<com.smartcityDS.numberofchargingPoints> responseObserver) {
-      asyncUnimplementedUnaryCall(getGetAvailabilityMethod(), responseObserver);
+      asyncUnimplementedUnaryCall(getGetAvailabilePointsMethod(), responseObserver);
+    }
+
+    /**
+     */
+    public void getChargingDuration(com.smartcityDS.preciseLocation request,
+        io.grpc.stub.StreamObserver<com.smartcityDS.chargingDuration> responseObserver) {
+      asyncUnimplementedUnaryCall(getGetChargingDurationMethod(), responseObserver);
     }
 
     @java.lang.Override public final io.grpc.ServerServiceDefinition bindService() {
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
           .addMethod(
-            getGetAvailabilityMethod(),
+            getGetAvailabilePointsMethod(),
             asyncUnaryCall(
               new MethodHandlers<
                 com.smartcityDS.preciseLocation,
                 com.smartcityDS.numberofchargingPoints>(
-                  this, METHODID_GET_AVAILABILITY)))
+                  this, METHODID_GET_AVAILABILE_POINTS)))
+          .addMethod(
+            getGetChargingDurationMethod(),
+            asyncUnaryCall(
+              new MethodHandlers<
+                com.smartcityDS.preciseLocation,
+                com.smartcityDS.chargingDuration>(
+                  this, METHODID_GET_CHARGING_DURATION)))
           .build();
     }
   }
@@ -126,10 +172,18 @@ public final class pluginGrpc {
 
     /**
      */
-    public void getAvailability(com.smartcityDS.preciseLocation request,
+    public void getAvailabilePoints(com.smartcityDS.preciseLocation request,
         io.grpc.stub.StreamObserver<com.smartcityDS.numberofchargingPoints> responseObserver) {
       asyncUnaryCall(
-          getChannel().newCall(getGetAvailabilityMethod(), getCallOptions()), request, responseObserver);
+          getChannel().newCall(getGetAvailabilePointsMethod(), getCallOptions()), request, responseObserver);
+    }
+
+    /**
+     */
+    public void getChargingDuration(com.smartcityDS.preciseLocation request,
+        io.grpc.stub.StreamObserver<com.smartcityDS.chargingDuration> responseObserver) {
+      asyncUnaryCall(
+          getChannel().newCall(getGetChargingDurationMethod(), getCallOptions()), request, responseObserver);
     }
   }
 
@@ -153,9 +207,16 @@ public final class pluginGrpc {
 
     /**
      */
-    public com.smartcityDS.numberofchargingPoints getAvailability(com.smartcityDS.preciseLocation request) {
+    public com.smartcityDS.numberofchargingPoints getAvailabilePoints(com.smartcityDS.preciseLocation request) {
       return blockingUnaryCall(
-          getChannel(), getGetAvailabilityMethod(), getCallOptions(), request);
+          getChannel(), getGetAvailabilePointsMethod(), getCallOptions(), request);
+    }
+
+    /**
+     */
+    public com.smartcityDS.chargingDuration getChargingDuration(com.smartcityDS.preciseLocation request) {
+      return blockingUnaryCall(
+          getChannel(), getGetChargingDurationMethod(), getCallOptions(), request);
     }
   }
 
@@ -179,14 +240,23 @@ public final class pluginGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<com.smartcityDS.numberofchargingPoints> getAvailability(
+    public com.google.common.util.concurrent.ListenableFuture<com.smartcityDS.numberofchargingPoints> getAvailabilePoints(
         com.smartcityDS.preciseLocation request) {
       return futureUnaryCall(
-          getChannel().newCall(getGetAvailabilityMethod(), getCallOptions()), request);
+          getChannel().newCall(getGetAvailabilePointsMethod(), getCallOptions()), request);
+    }
+
+    /**
+     */
+    public com.google.common.util.concurrent.ListenableFuture<com.smartcityDS.chargingDuration> getChargingDuration(
+        com.smartcityDS.preciseLocation request) {
+      return futureUnaryCall(
+          getChannel().newCall(getGetChargingDurationMethod(), getCallOptions()), request);
     }
   }
 
-  private static final int METHODID_GET_AVAILABILITY = 0;
+  private static final int METHODID_GET_AVAILABILE_POINTS = 0;
+  private static final int METHODID_GET_CHARGING_DURATION = 1;
 
   private static final class MethodHandlers<Req, Resp> implements
       io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
@@ -205,9 +275,13 @@ public final class pluginGrpc {
     @java.lang.SuppressWarnings("unchecked")
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
-        case METHODID_GET_AVAILABILITY:
-          serviceImpl.getAvailability((com.smartcityDS.preciseLocation) request,
+        case METHODID_GET_AVAILABILE_POINTS:
+          serviceImpl.getAvailabilePoints((com.smartcityDS.preciseLocation) request,
               (io.grpc.stub.StreamObserver<com.smartcityDS.numberofchargingPoints>) responseObserver);
+          break;
+        case METHODID_GET_CHARGING_DURATION:
+          serviceImpl.getChargingDuration((com.smartcityDS.preciseLocation) request,
+              (io.grpc.stub.StreamObserver<com.smartcityDS.chargingDuration>) responseObserver);
           break;
         default:
           throw new AssertionError();
@@ -270,7 +344,8 @@ public final class pluginGrpc {
         if (result == null) {
           serviceDescriptor = result = io.grpc.ServiceDescriptor.newBuilder(SERVICE_NAME)
               .setSchemaDescriptor(new pluginFileDescriptorSupplier())
-              .addMethod(getGetAvailabilityMethod())
+              .addMethod(getGetAvailabilePointsMethod())
+              .addMethod(getGetChargingDurationMethod())
               .build();
         }
       }

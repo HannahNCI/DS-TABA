@@ -29,14 +29,11 @@ public class UserService extends userImplBase {
 			response.setResponseCode(100).setResponsemessage("INVALID PASSWORD");
 		}
 		
-		
-		
 		responseObserver.onNext(response.build());
 		responseObserver.onCompleted();
 	}
 
 	@Override
 	public void logout(Empty request, StreamObserver<APIResponse> responseObserver) {
-		
 	}
 }

@@ -4,6 +4,8 @@ option java_package = "com.smartcityDS";
 
 service electricscooters{
 rpc getAvailability(locationPrecise) returns(numberAvailable);
+rpc getRentalCost(locationPrecise) returns(rentalCost);
+rpc getRentalDuration(locationPrecise) returns(rentalDuration);
 }
 message locationPrecise{
  string locationPrecise = 1;

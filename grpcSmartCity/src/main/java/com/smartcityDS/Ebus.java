@@ -52,9 +52,12 @@ public final class Ebus {
       " \001(\t\"*\n\017busstopLocation\022\027\n\017busstopLocati" +
       "on\030\001 \001(\t\"\036\n\tbusNumber\022\021\n\tbusNumber\030\001 \001(\t" +
       "\"&\n\rnumberofSeats\022\025\n\rnumberofSeats\030\001 \001(\t" +
-      "\"\034\n\010usbPorts\022\020\n\010usbPorts\030\001 \001(\t2.\n\004ebus\022&" +
-      "\n\014getTimetable\022\n.busNumber\032\n.TimetableB\023" +
-      "\n\017com.smartcityDSP\001b\006proto3"
+      "\"\034\n\010usbPorts\022\020\n\010usbPorts\030\001 \001(\t2\223\001\n\004ebus\022" +
+      "&\n\014getTimetable\022\n.busNumber\032\n.Timetable\022" +
+      "4\n\020getNumberofSeats\022\020.busstopLocation\032\016." +
+      "numberofSeats\022-\n\024getUsbPortsAvailable\022\n." +
+      "busNumber\032\t.usbPortsB\023\n\017com.smartcityDSP" +
+      "\001b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

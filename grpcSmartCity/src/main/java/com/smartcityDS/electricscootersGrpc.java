@@ -59,6 +59,70 @@ public final class electricscootersGrpc {
      return getGetAvailabilityMethod;
   }
 
+  private static volatile io.grpc.MethodDescriptor<com.smartcityDS.locationPrecise,
+      com.smartcityDS.rentalCost> getGetRentalCostMethod;
+
+  @io.grpc.stub.annotations.RpcMethod(
+      fullMethodName = SERVICE_NAME + '/' + "getRentalCost",
+      requestType = com.smartcityDS.locationPrecise.class,
+      responseType = com.smartcityDS.rentalCost.class,
+      methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
+  public static io.grpc.MethodDescriptor<com.smartcityDS.locationPrecise,
+      com.smartcityDS.rentalCost> getGetRentalCostMethod() {
+    io.grpc.MethodDescriptor<com.smartcityDS.locationPrecise, com.smartcityDS.rentalCost> getGetRentalCostMethod;
+    if ((getGetRentalCostMethod = electricscootersGrpc.getGetRentalCostMethod) == null) {
+      synchronized (electricscootersGrpc.class) {
+        if ((getGetRentalCostMethod = electricscootersGrpc.getGetRentalCostMethod) == null) {
+          electricscootersGrpc.getGetRentalCostMethod = getGetRentalCostMethod = 
+              io.grpc.MethodDescriptor.<com.smartcityDS.locationPrecise, com.smartcityDS.rentalCost>newBuilder()
+              .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
+              .setFullMethodName(generateFullMethodName(
+                  "electricscooters", "getRentalCost"))
+              .setSampledToLocalTracing(true)
+              .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  com.smartcityDS.locationPrecise.getDefaultInstance()))
+              .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  com.smartcityDS.rentalCost.getDefaultInstance()))
+                  .setSchemaDescriptor(new electricscootersMethodDescriptorSupplier("getRentalCost"))
+                  .build();
+          }
+        }
+     }
+     return getGetRentalCostMethod;
+  }
+
+  private static volatile io.grpc.MethodDescriptor<com.smartcityDS.locationPrecise,
+      com.smartcityDS.rentalDuration> getGetRentalDurationMethod;
+
+  @io.grpc.stub.annotations.RpcMethod(
+      fullMethodName = SERVICE_NAME + '/' + "getRentalDuration",
+      requestType = com.smartcityDS.locationPrecise.class,
+      responseType = com.smartcityDS.rentalDuration.class,
+      methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
+  public static io.grpc.MethodDescriptor<com.smartcityDS.locationPrecise,
+      com.smartcityDS.rentalDuration> getGetRentalDurationMethod() {
+    io.grpc.MethodDescriptor<com.smartcityDS.locationPrecise, com.smartcityDS.rentalDuration> getGetRentalDurationMethod;
+    if ((getGetRentalDurationMethod = electricscootersGrpc.getGetRentalDurationMethod) == null) {
+      synchronized (electricscootersGrpc.class) {
+        if ((getGetRentalDurationMethod = electricscootersGrpc.getGetRentalDurationMethod) == null) {
+          electricscootersGrpc.getGetRentalDurationMethod = getGetRentalDurationMethod = 
+              io.grpc.MethodDescriptor.<com.smartcityDS.locationPrecise, com.smartcityDS.rentalDuration>newBuilder()
+              .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
+              .setFullMethodName(generateFullMethodName(
+                  "electricscooters", "getRentalDuration"))
+              .setSampledToLocalTracing(true)
+              .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  com.smartcityDS.locationPrecise.getDefaultInstance()))
+              .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  com.smartcityDS.rentalDuration.getDefaultInstance()))
+                  .setSchemaDescriptor(new electricscootersMethodDescriptorSupplier("getRentalDuration"))
+                  .build();
+          }
+        }
+     }
+     return getGetRentalDurationMethod;
+  }
+
   /**
    * Creates a new async stub that supports all call types for the service
    */
@@ -93,6 +157,20 @@ public final class electricscootersGrpc {
       asyncUnimplementedUnaryCall(getGetAvailabilityMethod(), responseObserver);
     }
 
+    /**
+     */
+    public void getRentalCost(com.smartcityDS.locationPrecise request,
+        io.grpc.stub.StreamObserver<com.smartcityDS.rentalCost> responseObserver) {
+      asyncUnimplementedUnaryCall(getGetRentalCostMethod(), responseObserver);
+    }
+
+    /**
+     */
+    public void getRentalDuration(com.smartcityDS.locationPrecise request,
+        io.grpc.stub.StreamObserver<com.smartcityDS.rentalDuration> responseObserver) {
+      asyncUnimplementedUnaryCall(getGetRentalDurationMethod(), responseObserver);
+    }
+
     @java.lang.Override public final io.grpc.ServerServiceDefinition bindService() {
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
           .addMethod(
@@ -102,6 +180,20 @@ public final class electricscootersGrpc {
                 com.smartcityDS.locationPrecise,
                 com.smartcityDS.numberAvailable>(
                   this, METHODID_GET_AVAILABILITY)))
+          .addMethod(
+            getGetRentalCostMethod(),
+            asyncUnaryCall(
+              new MethodHandlers<
+                com.smartcityDS.locationPrecise,
+                com.smartcityDS.rentalCost>(
+                  this, METHODID_GET_RENTAL_COST)))
+          .addMethod(
+            getGetRentalDurationMethod(),
+            asyncUnaryCall(
+              new MethodHandlers<
+                com.smartcityDS.locationPrecise,
+                com.smartcityDS.rentalDuration>(
+                  this, METHODID_GET_RENTAL_DURATION)))
           .build();
     }
   }
@@ -131,6 +223,22 @@ public final class electricscootersGrpc {
       asyncUnaryCall(
           getChannel().newCall(getGetAvailabilityMethod(), getCallOptions()), request, responseObserver);
     }
+
+    /**
+     */
+    public void getRentalCost(com.smartcityDS.locationPrecise request,
+        io.grpc.stub.StreamObserver<com.smartcityDS.rentalCost> responseObserver) {
+      asyncUnaryCall(
+          getChannel().newCall(getGetRentalCostMethod(), getCallOptions()), request, responseObserver);
+    }
+
+    /**
+     */
+    public void getRentalDuration(com.smartcityDS.locationPrecise request,
+        io.grpc.stub.StreamObserver<com.smartcityDS.rentalDuration> responseObserver) {
+      asyncUnaryCall(
+          getChannel().newCall(getGetRentalDurationMethod(), getCallOptions()), request, responseObserver);
+    }
   }
 
   /**
@@ -156,6 +264,20 @@ public final class electricscootersGrpc {
     public com.smartcityDS.numberAvailable getAvailability(com.smartcityDS.locationPrecise request) {
       return blockingUnaryCall(
           getChannel(), getGetAvailabilityMethod(), getCallOptions(), request);
+    }
+
+    /**
+     */
+    public com.smartcityDS.rentalCost getRentalCost(com.smartcityDS.locationPrecise request) {
+      return blockingUnaryCall(
+          getChannel(), getGetRentalCostMethod(), getCallOptions(), request);
+    }
+
+    /**
+     */
+    public com.smartcityDS.rentalDuration getRentalDuration(com.smartcityDS.locationPrecise request) {
+      return blockingUnaryCall(
+          getChannel(), getGetRentalDurationMethod(), getCallOptions(), request);
     }
   }
 
@@ -184,9 +306,27 @@ public final class electricscootersGrpc {
       return futureUnaryCall(
           getChannel().newCall(getGetAvailabilityMethod(), getCallOptions()), request);
     }
+
+    /**
+     */
+    public com.google.common.util.concurrent.ListenableFuture<com.smartcityDS.rentalCost> getRentalCost(
+        com.smartcityDS.locationPrecise request) {
+      return futureUnaryCall(
+          getChannel().newCall(getGetRentalCostMethod(), getCallOptions()), request);
+    }
+
+    /**
+     */
+    public com.google.common.util.concurrent.ListenableFuture<com.smartcityDS.rentalDuration> getRentalDuration(
+        com.smartcityDS.locationPrecise request) {
+      return futureUnaryCall(
+          getChannel().newCall(getGetRentalDurationMethod(), getCallOptions()), request);
+    }
   }
 
   private static final int METHODID_GET_AVAILABILITY = 0;
+  private static final int METHODID_GET_RENTAL_COST = 1;
+  private static final int METHODID_GET_RENTAL_DURATION = 2;
 
   private static final class MethodHandlers<Req, Resp> implements
       io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
@@ -208,6 +348,14 @@ public final class electricscootersGrpc {
         case METHODID_GET_AVAILABILITY:
           serviceImpl.getAvailability((com.smartcityDS.locationPrecise) request,
               (io.grpc.stub.StreamObserver<com.smartcityDS.numberAvailable>) responseObserver);
+          break;
+        case METHODID_GET_RENTAL_COST:
+          serviceImpl.getRentalCost((com.smartcityDS.locationPrecise) request,
+              (io.grpc.stub.StreamObserver<com.smartcityDS.rentalCost>) responseObserver);
+          break;
+        case METHODID_GET_RENTAL_DURATION:
+          serviceImpl.getRentalDuration((com.smartcityDS.locationPrecise) request,
+              (io.grpc.stub.StreamObserver<com.smartcityDS.rentalDuration>) responseObserver);
           break;
         default:
           throw new AssertionError();
@@ -271,6 +419,8 @@ public final class electricscootersGrpc {
           serviceDescriptor = result = io.grpc.ServiceDescriptor.newBuilder(SERVICE_NAME)
               .setSchemaDescriptor(new electricscootersFileDescriptorSupplier())
               .addMethod(getGetAvailabilityMethod())
+              .addMethod(getGetRentalCostMethod())
+              .addMethod(getGetRentalDurationMethod())
               .build();
         }
       }
