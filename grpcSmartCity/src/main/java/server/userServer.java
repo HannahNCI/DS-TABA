@@ -30,13 +30,15 @@ public class userServer {
  public static void main(String args[]) throws IOException, InterruptedException {
 		 
 		 System.out.println("starting GRPC Server");
-		 Server server = ServerBuilder.forPort(9090).addService(
+		 Server server = ServerBuilder.forPort(8080).addService(
 
 				 new UserService()).build();
+		 System.out.println("Welcome!");
 		 
 		 server.start();
 		 System.out.println("server started at "+ server.getPort());
 	        server.awaitTermination();
+	     System.out.println("Successfully Logged out!");
   }
  
 }

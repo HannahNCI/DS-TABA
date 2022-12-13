@@ -35,7 +35,7 @@ public class busServer extends ebusImplBase{
   }
   public Properties getProperties(){
       Properties pt = null;
-      try (InputStream input = new FileInputStream("src/main/resources/properties/bus.properties")) {
+      try (InputStream input = new FileInputStream("src/main/resources/properties/ebus.properties")) {
           pt = new Properties();
           pt.load(input);
           System.out.println("Service properties...");

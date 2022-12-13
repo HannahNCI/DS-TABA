@@ -29,4 +29,5 @@ public class EscooterService extends electricscootersImplBase {
 		super.getRentalDuration(request, responseObserver);
 	}
 
+	
 }

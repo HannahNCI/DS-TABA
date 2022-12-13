@@ -1,0 +1,14 @@
+package GrpcClient;
+
+import com.smartcityDS.grpc.User.APIResponse;
+import com.smartcityDS.grpc.User.LoginRequest;
+import smartcityDS.grpc.userGrpc;
+import smartcityDS.grpc.userGrpc.userBlockingStub;
+
+import io.grpc.ManagedChannel;
+import io.grpc.ManagedChannelBuilder;
+
+
+public class GrpcClient {
+
+}

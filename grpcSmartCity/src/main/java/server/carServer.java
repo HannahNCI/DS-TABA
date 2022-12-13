@@ -16,7 +16,7 @@ import io.grpc.ServerBuilder;
 public class carServer extends pluginImplBase{
 
 	  public static void main(String[] args) throws IOException, InterruptedException {
-	      busServer server = new busServer();
+	      carServer server = new carServer();
 	      Properties prop = server.getProperties();
 	      server.register(prop);
 	      int port = Integer.valueOf(prop.getProperty("service_port"));
@@ -34,7 +34,7 @@ public class carServer extends pluginImplBase{
 	  }
 	  public Properties getProperties(){
 	      Properties pt = null;
-	      try (InputStream input = new FileInputStream("src/main/resources/properties/bus.properties")) {
+	      try (InputStream input = new FileInputStream("src/main/resources/properties/plugin.properties")) {
 	          pt = new Properties();
 	          pt.load(input);
 	          System.out.println("Service properties...");

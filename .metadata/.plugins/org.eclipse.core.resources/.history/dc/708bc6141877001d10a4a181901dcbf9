@@ -1,0 +1,9 @@
+package GrpcClient;
+
+import io.grpc.ManagedChannel;
+import io.grpc.ManagedChannelBuilder;
+
+
+public class GrpcClient {
+
+}

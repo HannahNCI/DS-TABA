@@ -16,7 +16,7 @@ import io.grpc.ServerBuilder;
 public class scooterServer extends electricscootersImplBase{
 
 	  public static void main(String[] args) throws IOException, InterruptedException {
-	      busServer server = new busServer();
+	      scooterServer server = new scooterServer();
 	      Properties prop = server.getProperties();
 	      server.register(prop);
 	      int port = Integer.valueOf(prop.getProperty("service_port"));
@@ -34,7 +34,7 @@ public class scooterServer extends electricscootersImplBase{
 	  }
 	  public Properties getProperties(){
 	      Properties pt = null;
-	      try (InputStream input = new FileInputStream("src/main/resources/properties/bus.properties")) {
+	      try (InputStream input = new FileInputStream("src/main/resources/properties/escooter.properties")) {
 	          pt = new Properties();
 	          pt.load(input);
 	          System.out.println("Service properties...");

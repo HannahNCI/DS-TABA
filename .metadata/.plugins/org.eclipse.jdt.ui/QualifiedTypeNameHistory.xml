@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.smartcityDS.userGrpc.userImplBase"/>
     <fullyQualifiedTypeName name="com.smartcityDS.ebusGrpc.ebusImplBase"/>
+    <fullyQualifiedTypeName name="com.smartcityDS.busNumber"/>
+    <fullyQualifiedTypeName name="com.smartcityDS.Timetable"/>
 </qualifiedTypeNameHistroy>
