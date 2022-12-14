@@ -1,7 +1,0 @@
-package ecar;
-
-import com.smartcityDS.pluginGrpc.pluginImplBase;
-
-public class EcarService extends pluginImplBase{
-
-}

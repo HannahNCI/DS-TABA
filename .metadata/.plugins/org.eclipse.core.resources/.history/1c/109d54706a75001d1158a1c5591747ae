@@ -1,7 +1,0 @@
-package ebus;
-
-import com.smartcityDS.ebusGrpc.ebusImplBase;
-
-public class EbusService extends ebusImplBase {
-
-}

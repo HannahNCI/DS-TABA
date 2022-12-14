@@ -1,0 +1,30 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "com.smartcityDS";
+
+service ebus{
+ rpc getTimetable(busNumber) returns(Timetable);
+ rpc getNumberofSeats(busstopLocation) returns(numberofSeats);
+ rpc getUsbPortsAvailable(busNumber) returns(usbPorts);
+}
+
+message Timetable{
+ string Timetable = 1;
+}
+
+message busstopLocation{
+	string busstopLocation = 1;
+}
+
+message busNumber{
+	string busNumber = 1;
+}
+
+message numberofSeats{
+ string numberofSeats = 1;
+}
+
+message usbPorts{
+ string usbPorts = 1;
+}
+
