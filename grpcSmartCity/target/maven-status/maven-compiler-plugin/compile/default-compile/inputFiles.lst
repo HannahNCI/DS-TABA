@@ -23,18 +23,13 @@ C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\m
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\busstopLocation.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\pluginGrpc.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\numberofchargingPointsOrBuilder.java
-C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\javax\jmdns\ServiceEvent.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\APIResponse.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\LoginRequestOrBuilder.java
-C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\javax\jmdns\MyServiceListener.java
-C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\javax\jmdns\ServiceInfo.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\locationPrecise.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\TimetableOrBuilder.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\busNumberOrBuilder.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\userGrpc.java
-C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\javax\jmdns\ServiceListener.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\preciseLocation.java
-C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\smartcityDS\bus\smartcityDSGrpc\smartcityDSGrpc.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\locationPreciseOrBuilder.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\numberAvailableOrBuilder.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\APIResponseOrBuilder.java
@@ -42,8 +37,6 @@ C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\m
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\server\userServer.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\EmptyOrBuilder.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\Escooter.java
-C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\javax\jmdns\JmDNS.java
-C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\smartcityDS\bus\smartcityDSGrpc\smartcityDSBlockingStub.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\cityNameOrBuilder.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\GUI\GUI.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\chargingDuration.java
@@ -55,4 +48,3 @@ C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\m
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\numberofSeatsOrBuilder.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\server\busServer.java
 C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\com\smartcityDS\rentalCost.java
-C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java\server\JmDNS.java

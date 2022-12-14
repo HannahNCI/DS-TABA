@@ -1,0 +1,23 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "com.smartcityDS";
+
+service plugin{
+ rpc getAvailability() returns();
+}
+
+message cityName{
+ string cityName = 1;
+}
+
+message preciseLocation{
+ string preciseLocation = 1;
+}
+
+message numberofchargingPoints{
+ string numberofchargingPoints = 1;
+}
+
+message chargingDuration{
+ string chargingDuration = 1;
+}

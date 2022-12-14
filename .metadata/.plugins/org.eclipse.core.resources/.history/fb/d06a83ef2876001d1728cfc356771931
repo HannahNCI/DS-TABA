@@ -1,0 +1,35 @@
+package ebus;
+
+import com.smartcityDS.APIResponse;
+import com.smartcityDS.Timetable;
+import com.smartcityDS.busNumber;
+import com.smartcityDS.ebusGrpc.ebusImplBase;
+
+import io.grpc.stub.StreamObserver;
+
+public class EbusService extends ebusImplBase {
+
+	@Override
+	public void getTimetable(busNumber request, StreamObserver<Timetable> responseObserver) {
+
+		System.out.println("Electric Bus Timetable");
+		
+		//String username = request.getUsername();
+		//String password = request.getPassword();
+		
+		//APIResponse.Builder response = APIResponse.newBuilder();
+		//if(username.equals(password)) {
+			
+			 // return success message
+			
+		//	response.setResponseCode(0).setResponsemessage("SUCCESS");
+			
+		//}
+		//else {
+			//response.setResponseCode(100).setResponsemessage("INVALID PASSWORD");
+		//}
+		
+		//responseObserver.onNext(response.build());
+		//responseObserver.onCompleted();
+	}
+}

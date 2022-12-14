@@ -15,10 +15,6 @@ import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
 
-import javax.annotation.Generated;
-
-import io.grpc.stub.StreamObserver;
-
 /**
  */
 @javax.annotation.Generated(
@@ -127,23 +123,35 @@ public final class ebusGrpc {
      return getGetUsbPortsAvailableMethod;
   }
 
- 
+  /**
+   * Creates a new async stub that supports all call types for the service
+   */
   public static ebusStub newStub(io.grpc.Channel channel) {
     return new ebusStub(channel);
   }
 
- 
+  /**
+   * Creates a new blocking-style stub that supports unary and streaming output calls on the service
+   */
   public static ebusBlockingStub newBlockingStub(
       io.grpc.Channel channel) {
     return new ebusBlockingStub(channel);
   }
 
- 
+  /**
+   * Creates a new ListenableFuture-style stub that supports unary calls on the service
+   */
   public static ebusFutureStub newFutureStub(
       io.grpc.Channel channel) {
     return new ebusFutureStub(channel);
   }
-  
+
+  /**
+   */
+  public static abstract class ebusImplBase implements io.grpc.BindableService {
+
+    /**
+     */
     public void getTimetable(com.smartcityDS.busNumber request,
         io.grpc.stub.StreamObserver<com.smartcityDS.Timetable> responseObserver) {
       asyncUnimplementedUnaryCall(getGetTimetableMethod(), responseObserver);
@@ -188,11 +196,6 @@ public final class ebusGrpc {
                   this, METHODID_GET_USB_PORTS_AVAILABLE)))
           .build();
     }
-
-	public void getNumberofSeats(busNumber request, StreamObserver<numberofSeats> responseObserver) {
-		// TODO Auto-generated method stub
-		
-	}
   }
 
   /**

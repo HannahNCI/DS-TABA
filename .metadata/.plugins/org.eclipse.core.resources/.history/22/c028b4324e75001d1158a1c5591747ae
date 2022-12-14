@@ -1,0 +1,24 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "com.smartcityDS";
+
+service ebus{
+ //add content here to link to the rpc methods
+}
+
+message Timetable{
+ string Timetable = 1;
+}
+
+message NumberofSeatsAvailable{
+ string NumberofSeatsAvailable = 1;
+}
+
+message USBPortAvailability{
+ string USBPortAvailability = 1;
+}
+
+message TripDuration{
+ string TripDuration = 1;
+}
+

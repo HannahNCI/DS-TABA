@@ -4,6 +4,4 @@
     <fullyQualifiedTypeName name="com.smartcityDS.ebusGrpc.ebusImplBase"/>
     <fullyQualifiedTypeName name="com.smartcityDS.busNumber"/>
     <fullyQualifiedTypeName name="com.smartcityDS.Timetable"/>
-    <fullyQualifiedTypeName name="com.smartcityDS.preciseLocation"/>
-    <fullyQualifiedTypeName name="java.awt.GridLayout"/>
 </qualifiedTypeNameHistroy>

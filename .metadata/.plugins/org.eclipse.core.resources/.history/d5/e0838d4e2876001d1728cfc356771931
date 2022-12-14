@@ -1,0 +1,35 @@
+package escooter;
+
+import com.smartcityDS.electricscootersGrpc.electricscootersImplBase;
+import com.smartcityDS.APIResponse;
+import com.smartcityDS.locationPrecise;
+import com.smartcityDS.numberAvailable;
+
+import io.grpc.stub.StreamObserver;
+
+public class EscooterService extends electricscootersImplBase {
+
+	@Override
+	public void getAvailability(locationPrecise request, StreamObserver<numberAvailable> responseObserver) {
+		
+		System.out.println("Inside login");
+		
+		//String username = request.getUsername();
+		//String password = request.getPassword();
+		
+		//APIResponse.Builder response = APIResponse.newBuilder();
+		//if(username.equals(password)) {
+			
+			 // return success message
+			
+		//	response.setResponseCode(0).setResponsemessage("SUCCESS");
+			
+		//}
+		//else {
+			//response.setResponseCode(100).setResponsemessage("INVALID PASSWORD");
+		//}
+		
+		//responseObserver.onNext(response.build());
+		//responseObserver.onCompleted();
+	}
+}
