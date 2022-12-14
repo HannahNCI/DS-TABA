@@ -1,0 +1,5 @@
+package smartcityDS.bus.smartcityDSGrpc;
+
+public class smartcityDSBlockingStub {
+
+}

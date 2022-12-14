@@ -1,0 +1,10 @@
+package javax.jmdns;
+
+public class ServiceInfo {
+
+	public String[] getHostAddresses() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

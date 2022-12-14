@@ -1,0 +1,10 @@
+package javax.jmdns;
+
+public class ServiceEvent {
+
+	public String getInfo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

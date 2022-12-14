@@ -1,0 +1,29 @@
+package javax.jmdns;
+
+import java.net.InetAddress;
+
+import GUI.GUI.MyServiceListener;
+
+public class JmDNS {
+
+	public static JmDNS create(InetAddress localHost) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void addServiceListener(String service_type, MyServiceListener myServiceListener) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void close() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void registerService(ServiceInfo serviceInfo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

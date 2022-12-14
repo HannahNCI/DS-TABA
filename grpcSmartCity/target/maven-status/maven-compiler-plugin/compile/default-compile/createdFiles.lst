@@ -16,6 +16,7 @@ GUI\GUI.class
 server\carServer.class
 com\smartcityDS\busNumberOrBuilder.class
 com\smartcityDS\rentalCostOrBuilder.class
+javax\jmdns\ServiceInfo.class
 com\smartcityDS\Empty.class
 com\smartcityDS\rentalDuration$1.class
 com\smartcityDS\ebusGrpc$ebusBlockingStub.class
@@ -37,7 +38,6 @@ com\smartcityDS\numberofSeats$Builder.class
 com\smartcityDS\rentalDuration$Builder.class
 com\smartcityDS\busstopLocation.class
 com\smartcityDS\electricscootersGrpc$electricscootersBaseDescriptorSupplier.class
-GUI\GUI$2.class
 com\smartcityDS\numberAvailableOrBuilder.class
 com\smartcityDS\numberofchargingPoints.class
 com\smartcityDS\electricscootersGrpc$electricscootersFutureStub.class
@@ -52,7 +52,6 @@ com\smartcityDS\userGrpc$userMethodDescriptorSupplier.class
 com\smartcityDS\APIResponse$1.class
 com\smartcityDS\locationPrecise.class
 server\userServer.class
-GUI\GUI$1.class
 com\smartcityDS\ebusGrpc$ebusMethodDescriptorSupplier.class
 com\smartcityDS\pluginGrpc$pluginFileDescriptorSupplier.class
 com\smartcityDS\userGrpc$MethodHandlers.class
@@ -75,13 +74,15 @@ com\smartcityDS\pluginGrpc$pluginBlockingStub.class
 com\smartcityDS\APIResponse$Builder.class
 com\smartcityDS\rentalCost$1.class
 com\smartcityDS\Escooter$1.class
+server\JmDNS.class
 server\scooterServer.class
-GUI\GUI$3.class
+javax\jmdns\MyServiceListener.class
 com\smartcityDS\cityNameOrBuilder.class
 ecar\EcarService.class
 com\smartcityDS\ebusGrpc$ebusImplBase.class
 com\smartcityDS\Empty$1.class
 com\smartcityDS\numberAvailable$Builder.class
+smartcityDS\bus\smartcityDSGrpc\smartcityDSBlockingStub.class
 com\smartcityDS\electricscootersGrpc$electricscootersStub.class
 user\UserService.class
 com\smartcityDS\electricscootersGrpc$electricscootersBlockingStub.class
@@ -112,10 +113,12 @@ com\smartcityDS\busNumber$1.class
 com\smartcityDS\pluginGrpc$pluginImplBase.class
 com\smartcityDS\Escooter.class
 com\smartcityDS\usbPorts$Builder.class
+javax\jmdns\JmDNS.class
 com\smartcityDS\ebusGrpc.class
+smartcityDS\bus\smartcityDSGrpc\smartcityDSGrpc.class
 com\smartcityDS\locationPrecise$1.class
 com\smartcityDS\preciseLocationOrBuilder.class
-GUI\GUI$4.class
+javax\jmdns\ServiceListener.class
 com\smartcityDS\electricscootersGrpc$electricscootersImplBase.class
 com\smartcityDS\preciseLocation.class
 com\smartcityDS\electricscootersGrpc$MethodHandlers.class
@@ -124,4 +127,5 @@ com\smartcityDS\preciseLocation$1.class
 com\smartcityDS\userGrpc$userStub.class
 com\smartcityDS\usbPorts.class
 com\smartcityDS\preciseLocation$Builder.class
+javax\jmdns\ServiceEvent.class
 com\smartcityDS\numberofSeats.class

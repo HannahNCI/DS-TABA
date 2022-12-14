@@ -1,0 +1,7 @@
+package javax.jmdns;
+
+public interface ServiceInfo {
+
+	String[] getHostAddresses();
+
+}

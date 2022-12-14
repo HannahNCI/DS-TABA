@@ -1,0 +1,10 @@
+package GUI;
+
+public class busSpecific {
+
+	public static Object newBuilder() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -9,12 +9,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.InetAddress;
 import java.util.Properties;
-import ecar.EcarService;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 
 public class carServer extends pluginImplBase{
-
 	  public static void main(String[] args) throws IOException, InterruptedException {
 	      carServer server = new carServer();
 	      Properties prop = server.getProperties();

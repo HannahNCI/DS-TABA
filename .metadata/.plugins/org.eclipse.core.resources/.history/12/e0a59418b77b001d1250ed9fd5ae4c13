@@ -1,0 +1,10 @@
+package ebus;
+
+public class busSpecific {
+
+	public Object getNumberofSeats() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,7 +1,0 @@
-package escooter;
-
-import com.smartcityDS.electricscootersGrpc.electricscootersImplBase;
-
-public class EscooterService extends electricscootersImplBase {
-
-}
