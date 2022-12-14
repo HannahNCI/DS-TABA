@@ -12,7 +12,6 @@ com\smartcityDS\TimetableOrBuilder.class
 com\smartcityDS\Ebus.class
 com\smartcityDS\numberofSeats$1.class
 com\smartcityDS\electricscootersGrpc.class
-GUI\GUI.class
 server\carServer.class
 com\smartcityDS\busNumberOrBuilder.class
 com\smartcityDS\rentalCostOrBuilder.class
@@ -29,7 +28,6 @@ com\smartcityDS\userGrpc$userFileDescriptorSupplier.class
 com\smartcityDS\chargingDuration$1.class
 com\smartcityDS\LoginRequestOrBuilder.class
 com\smartcityDS\ebusGrpc$ebusFileDescriptorSupplier.class
-GUI\GUI$MyServiceListener.class
 com\smartcityDS\userGrpc$userBlockingStub.class
 com\smartcityDS\APIResponse.class
 com\smartcityDS\ebusGrpc$MethodHandlers.class
@@ -37,7 +35,6 @@ com\smartcityDS\numberofSeats$Builder.class
 com\smartcityDS\rentalDuration$Builder.class
 com\smartcityDS\busstopLocation.class
 com\smartcityDS\electricscootersGrpc$electricscootersBaseDescriptorSupplier.class
-GUI\GUI$2.class
 com\smartcityDS\numberAvailableOrBuilder.class
 com\smartcityDS\numberofchargingPoints.class
 com\smartcityDS\electricscootersGrpc$electricscootersFutureStub.class
@@ -52,7 +49,6 @@ com\smartcityDS\userGrpc$userMethodDescriptorSupplier.class
 com\smartcityDS\APIResponse$1.class
 com\smartcityDS\locationPrecise.class
 server\userServer.class
-GUI\GUI$1.class
 com\smartcityDS\ebusGrpc$ebusMethodDescriptorSupplier.class
 com\smartcityDS\pluginGrpc$pluginFileDescriptorSupplier.class
 com\smartcityDS\userGrpc$MethodHandlers.class
@@ -76,7 +72,6 @@ com\smartcityDS\APIResponse$Builder.class
 com\smartcityDS\rentalCost$1.class
 com\smartcityDS\Escooter$1.class
 server\scooterServer.class
-GUI\GUI$3.class
 com\smartcityDS\cityNameOrBuilder.class
 ecar\EcarService.class
 com\smartcityDS\ebusGrpc$ebusImplBase.class
@@ -115,7 +110,6 @@ com\smartcityDS\usbPorts$Builder.class
 com\smartcityDS\ebusGrpc.class
 com\smartcityDS\locationPrecise$1.class
 com\smartcityDS\preciseLocationOrBuilder.class
-GUI\GUI$4.class
 com\smartcityDS\electricscootersGrpc$electricscootersImplBase.class
 com\smartcityDS\preciseLocation.class
 com\smartcityDS\electricscootersGrpc$MethodHandlers.class
