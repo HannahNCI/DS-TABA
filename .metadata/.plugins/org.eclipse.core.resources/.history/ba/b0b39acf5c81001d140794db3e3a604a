@@ -1,0 +1,12 @@
+package jmDNSBiDi;
+
+import javax.jmdns.ServiceInfo;
+
+public class SimpleServiceDiscovery {
+
+	public static ServiceInfo run(String service_type) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

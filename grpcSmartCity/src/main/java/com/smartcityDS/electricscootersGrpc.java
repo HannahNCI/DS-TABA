@@ -22,7 +22,11 @@ import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
     comments = "Source: escooter.proto")
 public final class electricscootersGrpc {
 
-  private electricscootersGrpc() {}
+  public class escooterBlockingStub {
+
+	}
+
+private electricscootersGrpc() {}
 
   public static final String SERVICE_NAME = "electricscooters";
 

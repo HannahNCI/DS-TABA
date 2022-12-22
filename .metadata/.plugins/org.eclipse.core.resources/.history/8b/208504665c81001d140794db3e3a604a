@@ -1,0 +1,5 @@
+package jmDNSBiDi;
+
+public class SimpleServiceDiscovery {
+
+}
