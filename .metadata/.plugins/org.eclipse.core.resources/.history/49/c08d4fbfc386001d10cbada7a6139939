@@ -1,0 +1,37 @@
+package com.smartcityDS;
+
+import io.grpc.ManagedChannel;
+
+public class smartcityDSBlockingStub {
+
+	public busstopLocation getTimetable(busNumber requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public preciseLocation getpreciseLocation(preciseLocation requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public preciseLocation getAvailabilePoints(preciseLocation requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public preciseLocation getAvailabilePoints(ManagedChannel requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public locationPrecise getAvailability(ManagedChannel requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public busstopLocation getTimetable(ManagedChannel requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

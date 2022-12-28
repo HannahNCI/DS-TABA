@@ -1,0 +1,15 @@
+package com.smartcityDS;
+
+public class smartcityDSBlockingStub {
+
+	public Timetable getTimetable(busNumber requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public preciseLocation getpreciseLocation(preciseLocation requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

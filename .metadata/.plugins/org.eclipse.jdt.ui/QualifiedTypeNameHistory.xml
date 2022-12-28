@@ -2,6 +2,21 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.smartcityDS.userGrpc.userImplBase"/>
     <fullyQualifiedTypeName name="com.smartcityDS.ebusGrpc.ebusImplBase"/>
-    <fullyQualifiedTypeName name="com.smartcityDS.busNumber"/>
+    <fullyQualifiedTypeName name="javax.jmdns.ServiceInfo"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="io.grpc.ManagedChannel"/>
+    <fullyQualifiedTypeName name="io.grpc.ManagedChannelBuilder"/>
+    <fullyQualifiedTypeName name="java.net.InetAddress"/>
+    <fullyQualifiedTypeName name="javax.jmdns.JmDNS"/>
+    <fullyQualifiedTypeName name="javax.jmdns.ServiceListener"/>
+    <fullyQualifiedTypeName name="javax.jmdns.ServiceEvent"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.awt.Window"/>
     <fullyQualifiedTypeName name="com.smartcityDS.Timetable"/>
+    <fullyQualifiedTypeName name="com.smartcityDS.smartcityDSGrpc"/>
+    <fullyQualifiedTypeName name="com.smartcityDS.busNumber"/>
+    <fullyQualifiedTypeName name="com.smartcityDS.busstopLocation"/>
+    <fullyQualifiedTypeName name="com.smartcityDS.preciseLocation"/>
+    <fullyQualifiedTypeName name="com.smartcityDS.locationPrecise"/>
+    <fullyQualifiedTypeName name="com.smartcityDS.smartcityDSBlockingStub"/>
 </qualifiedTypeNameHistroy>

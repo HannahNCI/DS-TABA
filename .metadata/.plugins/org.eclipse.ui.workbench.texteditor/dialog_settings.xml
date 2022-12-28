@@ -8,6 +8,8 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="naming"/>
+			<item value="naming service"/>
 			<item value="//"/>
 			<item value="server"/>
 			<item value="jmdns"/>

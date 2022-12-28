@@ -11,4 +11,9 @@ public class smartcityDSGrpc {
 		return null;
 	}
 
+	public static Object newStub(ManagedChannel channel) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

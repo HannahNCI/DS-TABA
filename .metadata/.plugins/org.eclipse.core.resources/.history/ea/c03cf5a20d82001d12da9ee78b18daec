@@ -1,0 +1,96 @@
+package GUI;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import java.awt.SystemColor;
+import javax.swing.UIManager;
+import java.awt.Color;
+import java.awt.CardLayout;
+import java.awt.FlowLayout;
+import java.awt.GridLayout;
+import javax.swing.JInternalFrame;
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.JButton;
+import com.jgoodies.forms.layout.FormLayout;
+import com.jgoodies.forms.layout.ColumnSpec;
+import com.jgoodies.forms.layout.RowSpec;
+import javax.swing.BoxLayout;
+import java.awt.BorderLayout;
+import javax.swing.SwingConstants;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.SpringLayout;
+import javax.swing.JSeparator;
+import javax.swing.JTextPane;
+
+public class GUI extends JFrame {
+	
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					GUI frame = new GUI();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public GUI() {
+		//we will be adding the service info here later
+		
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBackground(new Color(30, 144, 255));
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+
+		setContentPane(contentPane);
+		SpringLayout sl_contentPane = new SpringLayout();
+		contentPane.setLayout(sl_contentPane);
+		
+		JLabel lblNewLabel = new JLabel("SMART CITY GRPC APP");
+		sl_contentPane.putConstraint(SpringLayout.NORTH, lblNewLabel, 0, SpringLayout.NORTH, contentPane);
+		sl_contentPane.putConstraint(SpringLayout.EAST, lblNewLabel, -123, SpringLayout.EAST, contentPane);
+		lblNewLabel.setFont(new Font("Arial", Font.BOLD, 14));
+		lblNewLabel.setForeground(new Color(255, 255, 255));
+		contentPane.add(lblNewLabel);
+		
+		JButton btnNewButton = new JButton("EBUS");
+		sl_contentPane.putConstraint(SpringLayout.WEST, btnNewButton, -239, SpringLayout.EAST, contentPane);
+		sl_contentPane.putConstraint(SpringLayout.EAST, btnNewButton, -180, SpringLayout.EAST, contentPane);
+		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("ESCOOTER");
+		sl_contentPane.putConstraint(SpringLayout.NORTH, btnNewButton_1, 137, SpringLayout.NORTH, contentPane);
+		sl_contentPane.putConstraint(SpringLayout.SOUTH, btnNewButton, -19, SpringLayout.NORTH, btnNewButton_1);
+		sl_contentPane.putConstraint(SpringLayout.EAST, btnNewButton_1, -166, SpringLayout.EAST, contentPane);
+		contentPane.add(btnNewButton_1);
+		
+		JButton btnNewButton_2 = new JButton("ECAR");
+		sl_contentPane.putConstraint(SpringLayout.NORTH, btnNewButton_2, 18, SpringLayout.SOUTH, btnNewButton_1);
+		sl_contentPane.putConstraint(SpringLayout.EAST, btnNewButton_2, 0, SpringLayout.EAST, btnNewButton);
+		contentPane.add(btnNewButton_2);
+		
+		JTextPane textPane = new JTextPane();
+		sl_contentPane.putConstraint(SpringLayout.NORTH, textPane, 17, SpringLayout.SOUTH, lblNewLabel);
+		sl_contentPane.putConstraint(SpringLayout.WEST, textPane, 0, SpringLayout.WEST, contentPane);
+		sl_contentPane.putConstraint(SpringLayout.SOUTH, textPane, -201, SpringLayout.SOUTH, contentPane);
+		sl_contentPane.putConstraint(SpringLayout.EAST, textPane, -3, SpringLayout.EAST, contentPane);
+		contentPane.add(textPane);
+	}
+}

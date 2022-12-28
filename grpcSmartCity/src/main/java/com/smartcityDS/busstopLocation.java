@@ -536,6 +536,10 @@ private static final long serialVersionUID = 0L;
   public com.smartcityDS.busstopLocation getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
+public Object getTimetable() {
+	// TODO Auto-generated method stub
+	return null;
+}
 
 }
 

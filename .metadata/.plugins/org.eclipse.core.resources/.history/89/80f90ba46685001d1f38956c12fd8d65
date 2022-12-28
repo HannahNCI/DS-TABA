@@ -1,0 +1,10 @@
+package com.smartcityDS;
+
+public class smartcityDSBlockingStub {
+
+	public Timetable getTimetable(Timetable requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

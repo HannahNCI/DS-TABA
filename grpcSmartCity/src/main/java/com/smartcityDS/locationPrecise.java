@@ -498,6 +498,11 @@ private static final long serialVersionUID = 0L;
       return super.mergeUnknownFields(unknownFields);
     }
 
+	public com.smartcityDS.busNumber.Builder setAvailability(String text) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 
     // @@protoc_insertion_point(builder_scope:locationPrecise)
   }
@@ -536,6 +541,10 @@ private static final long serialVersionUID = 0L;
   public com.smartcityDS.locationPrecise getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
+public Object getAvailability() {
+	// TODO Auto-generated method stub
+	return null;
+}
 
 }
 

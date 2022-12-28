@@ -12,4 +12,10 @@
 		<item key="width" value="606"/>
 		<item key="height" value="344"/>
 	</section>
+	<section name="org.eclipse.wb.internal.core.model.util.ExposeComponentSupport$ExposeDialog">
+		<item key="x" value="378"/>
+		<item key="y" value="286"/>
+		<item key="width" value="613"/>
+		<item key="height" value="300"/>
+	</section>
 </section>
