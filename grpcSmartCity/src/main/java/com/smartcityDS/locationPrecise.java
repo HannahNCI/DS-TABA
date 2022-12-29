@@ -3,6 +3,8 @@
 
 package com.smartcityDS;
 
+import io.grpc.ManagedChannelBuilder;
+
 /**
  * Protobuf type {@code locationPrecise}
  */
@@ -498,7 +500,7 @@ private static final long serialVersionUID = 0L;
       return super.mergeUnknownFields(unknownFields);
     }
 
-	public com.smartcityDS.busNumber.Builder setAvailability(String text) {
+	public ManagedChannelBuilder setAvailability(String text) {
 		// TODO Auto-generated method stub
 		return null;
 	}

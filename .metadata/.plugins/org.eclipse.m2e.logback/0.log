@@ -17026,3 +17026,443 @@ java.io.IOException: There is not enough space on the disk
 2022-12-28 22:49:19,219 [Worker-27: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
 2022-12-28 22:49:19,222 [Worker-27: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-12-28 22:49:19,223 [Worker-27: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-28 23:10:30,770 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-12-28 23:10:31,180 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\genaz\AppData\Local\Temp\protocjar10471339237979280516\bin\protoc.exe
+2022-12-28 23:10:31,182 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\genaz\AppData\Local\Temp\protocjar17775938156068375015\include
+2022-12-28 23:10:31,233 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-12-28 23:10:31,237 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-12-28 23:10:31,239 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-12-28 23:10:31,241 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-12-28 23:10:31,244 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-12-28 23:10:31,245 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-12-28 23:10:31,245 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-12-28 23:10:31,246 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-12-28 23:10:31,247 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-12-28 23:10:31,248 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-12-28 23:10:31,249 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-12-28 23:10:31,250 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-12-28 23:10:31,443 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-12-28 23:10:31,444 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources
+2022-12-28 23:10:31,444 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-12-28 23:10:31,444 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\AppData\Local\Temp\protocjar17775938156068375015\include
+2022-12-28 23:10:31,444 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-12-28 23:10:31,444 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:10:31,444 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:10:31,444 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-12-28 23:10:31,458 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-28 23:10:31,458 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-28 23:10:31,458 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-28 23:10:31,459 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-28 23:10:31,459 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:10:31,460 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-28 23:10:31,460 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-28 23:10:31,460 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-28 23:10:31,460 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-28 23:10:31,460 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:10:31,462 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-28 23:10:31,463 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2022-12-28 23:10:31,467 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-28 23:10:31,468 [Worker-8: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-28 23:18:07,275 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-12-28 23:18:07,557 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\genaz\AppData\Local\Temp\protocjar13464172206240892194\bin\protoc.exe
+2022-12-28 23:18:07,560 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\genaz\AppData\Local\Temp\protocjar148553259908175907\include
+2022-12-28 23:18:07,603 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-12-28 23:18:07,606 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-12-28 23:18:07,608 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-12-28 23:18:07,610 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-12-28 23:18:07,612 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-12-28 23:18:07,613 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-12-28 23:18:07,614 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-12-28 23:18:07,616 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-12-28 23:18:07,618 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-12-28 23:18:07,618 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-12-28 23:18:07,620 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-12-28 23:18:07,621 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-12-28 23:18:07,844 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-12-28 23:18:07,844 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources
+2022-12-28 23:18:07,844 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-12-28 23:18:07,845 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\AppData\Local\Temp\protocjar148553259908175907\include
+2022-12-28 23:18:07,845 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-12-28 23:18:07,845 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:18:07,845 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:18:07,845 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-12-28 23:18:07,859 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-28 23:18:07,859 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-28 23:18:07,859 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-28 23:18:07,859 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-28 23:18:07,859 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:18:07,861 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-28 23:18:07,861 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-28 23:18:07,861 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-28 23:18:07,861 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-28 23:18:07,862 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:18:07,865 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-28 23:18:07,870 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2022-12-28 23:18:07,876 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-28 23:18:07,876 [Worker-32: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-28 23:18:37,062 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-12-28 23:18:37,354 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\genaz\AppData\Local\Temp\protocjar12999531477890696159\bin\protoc.exe
+2022-12-28 23:18:37,356 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\genaz\AppData\Local\Temp\protocjar8799766882952103193\include
+2022-12-28 23:18:37,412 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-12-28 23:18:37,415 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-12-28 23:18:37,417 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-12-28 23:18:37,418 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-12-28 23:18:37,419 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-12-28 23:18:37,421 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-12-28 23:18:37,422 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-12-28 23:18:37,424 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-12-28 23:18:37,424 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-12-28 23:18:37,426 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-12-28 23:18:37,428 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-12-28 23:18:37,429 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-12-28 23:18:37,622 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-12-28 23:18:37,622 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources
+2022-12-28 23:18:37,622 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-12-28 23:18:37,622 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\AppData\Local\Temp\protocjar8799766882952103193\include
+2022-12-28 23:18:37,622 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-12-28 23:18:37,622 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:18:37,622 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:18:37,622 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-12-28 23:18:37,635 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-28 23:18:37,635 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-28 23:18:37,635 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-28 23:18:37,635 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-28 23:18:37,635 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:18:37,637 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-28 23:18:37,637 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-28 23:18:37,637 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-28 23:18:37,637 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-28 23:18:37,637 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:18:37,639 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-28 23:18:37,642 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2022-12-28 23:18:37,646 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-28 23:18:37,646 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-28 23:21:03,519 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-12-28 23:21:03,914 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\genaz\AppData\Local\Temp\protocjar15767608397186376800\bin\protoc.exe
+2022-12-28 23:21:03,916 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\genaz\AppData\Local\Temp\protocjar10895554041797012010\include
+2022-12-28 23:21:03,971 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-12-28 23:21:03,977 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-12-28 23:21:03,979 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-12-28 23:21:03,980 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-12-28 23:21:03,982 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-12-28 23:21:03,983 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-12-28 23:21:03,984 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-12-28 23:21:03,987 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-12-28 23:21:03,988 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-12-28 23:21:03,990 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-12-28 23:21:03,991 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-12-28 23:21:03,992 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-12-28 23:21:04,243 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-12-28 23:21:04,244 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources
+2022-12-28 23:21:04,244 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-12-28 23:21:04,244 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\AppData\Local\Temp\protocjar10895554041797012010\include
+2022-12-28 23:21:04,244 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-12-28 23:21:04,244 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:21:04,244 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:21:04,244 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-12-28 23:21:04,259 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-28 23:21:04,259 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-28 23:21:04,259 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-28 23:21:04,259 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-28 23:21:04,259 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:21:04,261 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-28 23:21:04,261 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-28 23:21:04,261 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-28 23:21:04,261 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-28 23:21:04,261 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:21:04,265 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-28 23:21:04,267 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2022-12-28 23:21:04,276 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-28 23:21:04,276 [Worker-30: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-28 23:25:24,103 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-12-28 23:25:24,380 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\genaz\AppData\Local\Temp\protocjar1709374062123316932\bin\protoc.exe
+2022-12-28 23:25:24,385 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\genaz\AppData\Local\Temp\protocjar8668844376593789958\include
+2022-12-28 23:25:24,434 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-12-28 23:25:24,438 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-12-28 23:25:24,439 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-12-28 23:25:24,440 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-12-28 23:25:24,444 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-12-28 23:25:24,445 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-12-28 23:25:24,447 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-12-28 23:25:24,447 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-12-28 23:25:24,449 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-12-28 23:25:24,451 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-12-28 23:25:24,452 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-12-28 23:25:24,454 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-12-28 23:25:24,681 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-12-28 23:25:24,681 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources
+2022-12-28 23:25:24,681 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-12-28 23:25:24,681 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\AppData\Local\Temp\protocjar8668844376593789958\include
+2022-12-28 23:25:24,681 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-12-28 23:25:24,681 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:25:24,681 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:25:24,682 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-12-28 23:25:24,694 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-28 23:25:24,695 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-28 23:25:24,695 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-28 23:25:24,695 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-28 23:25:24,695 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:25:24,696 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-28 23:25:24,696 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-28 23:25:24,696 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-28 23:25:24,696 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-28 23:25:24,696 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:25:24,699 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-28 23:25:24,703 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2022-12-28 23:25:24,709 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-28 23:25:24,710 [Worker-28: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-28 23:31:21,322 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-12-28 23:31:21,661 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\genaz\AppData\Local\Temp\protocjar16262002676847661635\bin\protoc.exe
+2022-12-28 23:31:21,664 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\genaz\AppData\Local\Temp\protocjar8561024014612083301\include
+2022-12-28 23:31:21,731 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-12-28 23:31:21,736 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-12-28 23:31:21,738 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-12-28 23:31:21,741 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-12-28 23:31:21,744 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-12-28 23:31:21,746 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-12-28 23:31:21,747 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-12-28 23:31:21,747 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-12-28 23:31:21,748 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-12-28 23:31:21,751 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-12-28 23:31:21,753 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-12-28 23:31:21,754 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-12-28 23:31:21,981 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-12-28 23:31:21,981 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources
+2022-12-28 23:31:21,981 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-12-28 23:31:21,981 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\AppData\Local\Temp\protocjar8561024014612083301\include
+2022-12-28 23:31:21,982 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-12-28 23:31:21,982 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:31:21,982 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:31:21,982 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-12-28 23:31:21,992 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-28 23:31:21,993 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-28 23:31:21,993 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-28 23:31:21,993 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-28 23:31:21,993 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:31:21,994 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-28 23:31:21,994 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-28 23:31:21,994 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-28 23:31:21,994 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-28 23:31:21,994 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:31:22,000 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-28 23:31:22,003 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2022-12-28 23:31:22,021 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-28 23:31:22,022 [Worker-40: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-28 23:43:50,928 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [1218])
+2022-12-28 23:43:50,938 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2022-12-28 23:43:50,939 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2022-12-28 23:43:50,940 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2022-12-28 23:43:50,940 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2022-12-28 23:43:50,940 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2022-12-28 23:43:50,941 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2022-12-28 23:43:50,941 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2022-12-28 23:43:50,941 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2022-12-28 23:43:50,941 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2022-12-28 23:43:50,941 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2022-12-28 23:43:50,942 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2022-12-28 23:43:50,942 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2022-12-28 23:43:50,942 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2022-12-28 23:43:50,942 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2022-12-28 23:43:50,943 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2022-12-28 23:43:50,943 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2022-12-28 23:43:50,944 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2022-12-28 23:43:50,944 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2022-12-28 23:43:50,944 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2022-12-28 23:43:50,944 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2022-12-28 23:43:50,945 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2022-12-28 23:43:50,945 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2022-12-28 23:43:50,946 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2022-12-28 23:43:50,947 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2022-12-28 23:43:50,947 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2022-12-28 23:43:50,948 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2022-12-28 23:43:50,950 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2022-12-28 23:43:50,951 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2022-12-28 23:43:50,951 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2022-12-28 23:43:50,952 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2022-12-28 23:43:50,952 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2022-12-28 23:43:50,952 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2022-12-28 23:43:50,953 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2022-12-28 23:43:50,954 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2022-12-28 23:43:50,955 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2022-12-28 23:43:50,955 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2022-12-28 23:43:50,956 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2022-12-28 23:43:50,956 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2022-12-28 23:43:50,956 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2022-12-28 23:43:50,957 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [936])
+2022-12-28 23:43:50,958 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\com.google.guava_31.1.0.jre.jar
+2022-12-28 23:43:50,958 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [1377])
+2022-12-28 23:43:50,959 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2022-12-28 23:43:50,960 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [30])
+2022-12-28 23:43:50,961 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2022-12-28 23:43:50,962 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [1003])
+2022-12-28 23:43:50,966 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2022-12-28 23:43:50,966 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [937])
+2022-12-28 23:43:50,969 [Worker-55: Launching grpcSmartCity (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\com.google.guava.failureaccess_1.0.1.jar
+2022-12-28 23:43:50,973 [Worker-55: Launching grpcSmartCity (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity":
+2022-12-28 23:43:50,974 [Worker-55: Launching grpcSmartCity (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always 
+2022-12-28 23:44:21,057 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-28 23:44:21,740 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.smartcityDS:grpcSmartCity:0.0.1-SNAPSHOT @ C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\pom.xml.
+2022-12-28 23:44:22,429 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-12-28 23:44:22,935 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\genaz\AppData\Local\Temp\protocjar8521184272802626387\bin\protoc.exe
+2022-12-28 23:44:22,937 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\genaz\AppData\Local\Temp\protocjar14871308697532212062\include
+2022-12-28 23:44:23,051 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-12-28 23:44:23,059 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-12-28 23:44:23,061 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-12-28 23:44:23,062 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-12-28 23:44:23,067 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-12-28 23:44:23,071 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-12-28 23:44:23,072 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-12-28 23:44:23,073 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-12-28 23:44:23,074 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-12-28 23:44:23,075 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-12-28 23:44:23,078 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-12-28 23:44:23,080 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-12-28 23:44:23,463 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-12-28 23:44:23,463 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources
+2022-12-28 23:44:23,464 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-12-28 23:44:23,464 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\AppData\Local\Temp\protocjar14871308697532212062\include
+2022-12-28 23:44:23,465 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-12-28 23:44:23,465 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:44:23,465 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:44:23,465 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-12-28 23:44:23,503 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-28 23:44:23,503 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-28 23:44:23,503 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-28 23:44:23,503 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-28 23:44:23,503 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:44:23,505 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-28 23:44:23,505 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-28 23:44:23,505 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-28 23:44:23,505 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-28 23:44:23,505 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:44:23,623 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /grpcSmartCity/src/main/java
+2022-12-28 23:44:23,624 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /grpcSmartCity/src/main/resources
+2022-12-28 23:44:23,624 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /grpcSmartCity/src/test/java
+2022-12-28 23:44:23,626 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /grpcSmartCity/src/test/resources
+2022-12-28 23:44:25,297 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 1.00 sec 
+2022-12-28 23:44:32,996 [Worker-57: Launching grpcSmartCity (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity":
+2022-12-28 23:44:32,996 [Worker-57: Launching grpcSmartCity (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always 
+2022-12-28 23:45:07,337 [Worker-60: Searching...] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.workspace.cli_0.3.1 [604])
+2022-12-28 23:45:07,340 [Worker-60: Searching...] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.workspace.cli_0.3.1.jar
+2022-12-28 23:45:07,873 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.6/maven-artifact-3.8.6-sources.jar
+2022-12-28 23:45:08,145 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.6/maven-artifact-3.8.6-sources.jar
+2022-12-28 23:45:08,296 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.8.6/maven-builder-support-3.8.6-sources.jar
+2022-12-28 23:45:08,361 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.8.6/maven-builder-support-3.8.6-sources.jar
+2022-12-28 23:45:08,524 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.8.6/maven-compat-3.8.6-sources.jar
+2022-12-28 23:45:08,645 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.8.6/maven-compat-3.8.6-sources.jar
+2022-12-28 23:45:08,784 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.8.6/maven-core-3.8.6-sources.jar
+2022-12-28 23:45:08,927 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.8.6/maven-core-3.8.6-sources.jar
+2022-12-28 23:45:09,098 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-embedder/3.8.6/maven-embedder-3.8.6-sources.jar
+2022-12-28 23:45:09,173 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-embedder/3.8.6/maven-embedder-3.8.6-sources.jar
+2022-12-28 23:45:09,321 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.8.6/maven-model-3.8.6-sources.jar
+2022-12-28 23:45:09,414 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.8.6/maven-model-3.8.6-sources.jar
+2022-12-28 23:45:09,559 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.8.6/maven-model-builder-3.8.6-sources.jar
+2022-12-28 23:45:09,665 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.8.6/maven-model-builder-3.8.6-sources.jar
+2022-12-28 23:45:09,836 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.6/maven-plugin-api-3.8.6-sources.jar
+2022-12-28 23:45:09,906 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.6/maven-plugin-api-3.8.6-sources.jar
+2022-12-28 23:45:10,055 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.8.6/maven-repository-metadata-3.8.6-sources.jar
+2022-12-28 23:45:10,113 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.8.6/maven-repository-metadata-3.8.6-sources.jar
+2022-12-28 23:45:10,273 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.8.6/maven-resolver-provider-3.8.6-sources.jar
+2022-12-28 23:45:10,339 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.8.6/maven-resolver-provider-3.8.6-sources.jar
+2022-12-28 23:45:10,493 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.8.6/maven-settings-3.8.6-sources.jar
+2022-12-28 23:45:10,558 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.8.6/maven-settings-3.8.6-sources.jar
+2022-12-28 23:45:10,695 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.8.6/maven-settings-builder-3.8.6-sources.jar
+2022-12-28 23:45:10,757 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.8.6/maven-settings-builder-3.8.6-sources.jar
+2022-12-28 23:45:10,956 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.1/plexus-utils-3.3.1-sources.jar
+2022-12-28 23:45:11,063 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.3.1/plexus-utils-3.3.1-sources.jar
+2022-12-28 23:45:11,205 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-file/3.5.1/wagon-file-3.5.1-sources.jar
+2022-12-28 23:45:11,247 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-file/3.5.1/wagon-file-3.5.1-sources.jar
+2022-12-28 23:45:11,397 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.5.1/wagon-provider-api-3.5.1-sources.jar
+2022-12-28 23:45:11,464 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.5.1/wagon-provider-api-3.5.1-sources.jar
+2022-12-28 23:45:11,607 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-slf4j-provider/3.8.6/maven-slf4j-provider-3.8.6-sources.jar
+2022-12-28 23:45:11,662 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-slf4j-provider/3.8.6/maven-slf4j-provider-3.8.6-sources.jar
+2022-12-28 23:45:11,804 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar
+2022-12-28 23:45:12,018 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar
+2022-12-28 23:45:12,184 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar
+2022-12-28 23:45:12,260 [Worker-60: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar
+2022-12-28 23:46:08,620 [Worker-57: Launching grpcSmartCity (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity":
+2022-12-28 23:46:08,620 [Worker-57: Launching grpcSmartCity (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always 
+2022-12-28 23:46:29,378 [Worker-59: Searching...] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.workspace.cli_0.3.1 [604])
+2022-12-28 23:46:29,379 [Worker-59: Searching...] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\genaz\.p2\pool\plugins\org.eclipse.m2e.workspace.cli_0.3.1.jar
+2022-12-28 23:48:12,407 [Worker-57: Launching grpcSmartCity (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity":
+2022-12-28 23:48:12,408 [Worker-57: Launching grpcSmartCity (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always 
+2022-12-28 23:49:32,738 [Worker-56: Launching grpcSmartCity (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity":
+2022-12-28 23:49:32,740 [Worker-56: Launching grpcSmartCity (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always 
+2022-12-28 23:51:55,490 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-12-28 23:51:55,926 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\genaz\AppData\Local\Temp\protocjar3704894159453874203\bin\protoc.exe
+2022-12-28 23:51:55,930 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\genaz\AppData\Local\Temp\protocjar17466118546345339869\include
+2022-12-28 23:51:56,018 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-12-28 23:51:56,025 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-12-28 23:51:56,027 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-12-28 23:51:56,031 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-12-28 23:51:56,035 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-12-28 23:51:56,037 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-12-28 23:51:56,039 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-12-28 23:51:56,041 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-12-28 23:51:56,042 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-12-28 23:51:56,045 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-12-28 23:51:56,047 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-12-28 23:51:56,050 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-12-28 23:51:56,406 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-12-28 23:51:56,406 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources
+2022-12-28 23:51:56,406 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-12-28 23:51:56,406 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\AppData\Local\Temp\protocjar17466118546345339869\include
+2022-12-28 23:51:56,406 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-12-28 23:51:56,406 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:51:56,406 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-28 23:51:56,406 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-12-28 23:51:56,425 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (java): ebus.proto
+2022-12-28 23:51:56,542 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (java): ecar.proto
+2022-12-28 23:51:56,673 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (java): escooter.proto
+2022-12-28 23:51:56,785 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (java): user.proto
+2022-12-28 23:51:56,889 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:51:56,890 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (grpc-java): ebus.proto
+2022-12-28 23:51:56,892 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     Plugin path: C:\Users\genaz\AppData\Local\Temp\protoc-gen-grpc-java16244623376101719812.exe
+2022-12-28 23:51:57,140 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (grpc-java): ecar.proto
+2022-12-28 23:51:57,141 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     Plugin path: C:\Users\genaz\AppData\Local\Temp\protoc-gen-grpc-java16244623376101719812.exe
+2022-12-28 23:51:57,280 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (grpc-java): escooter.proto
+2022-12-28 23:51:57,281 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     Plugin path: C:\Users\genaz\AppData\Local\Temp\protoc-gen-grpc-java16244623376101719812.exe
+2022-12-28 23:51:57,417 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (grpc-java): user.proto
+2022-12-28 23:51:57,418 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     Plugin path: C:\Users\genaz\AppData\Local\Temp\protoc-gen-grpc-java16244623376101719812.exe
+2022-12-28 23:51:57,540 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-28 23:51:57,562 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-28 23:51:57,564 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2022-12-28 23:51:57,578 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-28 23:51:57,582 [Worker-57: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-29 00:03:38,950 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-12-29 00:03:39,461 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\genaz\AppData\Local\Temp\protocjar1862075144550345361\bin\protoc.exe
+2022-12-29 00:03:39,465 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\genaz\AppData\Local\Temp\protocjar7724219667831425646\include
+2022-12-29 00:03:39,544 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-12-29 00:03:39,549 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-12-29 00:03:39,551 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-12-29 00:03:39,554 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-12-29 00:03:39,557 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-12-29 00:03:39,558 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-12-29 00:03:39,560 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-12-29 00:03:39,561 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-12-29 00:03:39,563 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-12-29 00:03:39,565 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-12-29 00:03:39,567 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-12-29 00:03:39,569 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-12-29 00:03:39,893 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-12-29 00:03:39,893 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources
+2022-12-29 00:03:39,893 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-12-29 00:03:39,893 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\genaz\AppData\Local\Temp\protocjar7724219667831425646\include
+2022-12-29 00:03:39,893 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-12-29 00:03:39,893 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-29 00:03:39,893 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-12-29 00:03:39,893 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-12-29 00:03:39,912 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-29 00:03:39,912 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-29 00:03:39,912 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-29 00:03:39,912 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-29 00:03:39,912 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-29 00:03:39,913 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ebus.proto
+2022-12-29 00:03:39,914 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\ecar.proto
+2022-12-29 00:03:39,914 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\escooter.proto
+2022-12-29 00:03:39,914 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\genaz\OneDrive\Documents\HANNAH OROURKE-NCI\DS-TABA\grpcSmartCity\src\main\resources\user.proto
+2022-12-29 00:03:39,914 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-12-29 00:03:39,917 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-29 00:03:39,926 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2022-12-29 00:03:39,929 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-29 00:03:39,930 [Worker-61: Launching GUI (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

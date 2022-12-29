@@ -49,12 +49,12 @@ public class GUI {
         });
 }
     public GUI() throws IOException, InterruptedException {
-    	//String service_type = "_http._tcp.local.";
-        //discoveryService(service_type);
-        //String host = serviceinfo.getHostAddresses()[0];
-        //ManagedChannel channel = ManagedChannelBuilder.forAddress(host, 50053).usePlaintext().build();
-        //ManagedChannel channel2 = ManagedChannelBuilder.forAddress(host, 50052).usePlaintext().build();
-        //smartcitydsstub = smartcityDSGrpc.newBlockingStub(channel);
+    	String service_type = "_http._tcp.local.";
+        discoveryService(service_type);
+        String host = serviceinfo.getHostAddresses()[0];
+        ManagedChannel channel = ManagedChannelBuilder.forAddress(host, 50053).usePlaintext().build();
+        ManagedChannel channel2 = ManagedChannelBuilder.forAddress(host, 50052).usePlaintext().build();
+        smartcitydsstub = smartcityDSGrpc.newBlockingStub(channel);
         intializer();
     }
 
@@ -80,7 +80,7 @@ public class GUI {
         	public void actionPerformed(ActionEvent e) {
                 try{
                     int request = Integer.parseInt(BusTf.getText());
-                    Message requests = busNumber.newBuilder().setBusNumber(BusTf.getText()).build();
+                    busNumber requests = busNumber.newBuilder().setBusNumber(BusTf.getText()).build();
                     busstopLocation reply =  smartcitydsstub.getTimetable(requests);
                     JOptionPane.showMessageDialog(frame, reply.getTimetable());
 
