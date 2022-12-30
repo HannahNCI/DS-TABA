@@ -1,0 +1,13 @@
+package com.smartcityDS;
+
+import grpcSmartCity.ebus.busNumber;
+import grpcSmartCity.ebus.busTimetable;
+
+public class smartcityDSBlockingStub {
+
+	public busTimetable getbusTimetable(busNumber requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

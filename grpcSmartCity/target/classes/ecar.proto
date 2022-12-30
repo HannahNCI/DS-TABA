@@ -1,24 +1,39 @@
 syntax = "proto3";
 option java_multiple_files = true;
-option java_package = "com.smartcityDS";
+option java_package = "grpcSmartCity.ecar";
+option java_outer_classname = "smartcityDSServiceImpl";
+package grpcSmartCity;
 
-service plugin{
- rpc getAvailabilePoints(preciseLocation) returns(numberofchargingPoints);
- rpc getChargingDuration(preciseLocation) returns(chargingDuration);
+service smartcityDS{
+  //get available ecar plugin points
+  rpc getpluginAvailability(preciseLocation) returns (pluginAvailability);
+  //get plugin duration
+  rpc getChargingDuration(pluginAvailability) returns (chargingDuration);
+  //seeing all pluginpoints out of specific type
+  rpc seePlugin(pluginSpecific) returns (pluginAmount);
+  //delete pluginpoints
+  rpc deletePlugin(pluginSpecific) returns (pluginDelete);
 }
 
-message cityName{
- string cityName = 1;
+message pluginAvailability{
+  string pluginAvailability=1;
 }
 
 message preciseLocation{
- string preciseLocation = 1;
-}
-
-message numberofchargingPoints{
- string numberofchargingPoints = 1;
+	string preciseLocation=1;
 }
 
 message chargingDuration{
- string chargingDuration = 1;
+	string chargingDuration=1;
+}
+
+message pluginSpecific{
+  string pluginSpecific=1;
+}
+message pluginAmount{
+  string pluginAmount=1;
+}
+
+message pluginDelete{
+  string pluginDelete=1;
 }

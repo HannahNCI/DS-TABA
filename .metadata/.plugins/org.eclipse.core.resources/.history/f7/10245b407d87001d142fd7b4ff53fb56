@@ -1,0 +1,46 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "grpcSmartCity.escooter";
+option java_outer_classname = "smartcityDSServiceImpl";
+package grpcSmartCity;
+
+service smartcityDS{
+  //get available scooters
+  rpc getScooterAvailability(preciseLocation) returns (scooterAvailability);
+  //get rental duration
+  rpc getRentalDuration(scooterAvailability) returns (rentalDuration);
+  //get rental cost
+  rpc getRentalCost(preciseLocation) returns (rentalCost);
+  //seeing all scooters out of specific scooters type
+  rpc seeScooter(scooterSpecific) returns (scooterAmount);
+  //delete scooters
+  rpc deleteScooter(scooterSpecific) returns (scooterDelete);
+}
+
+message busNumber{
+  string busNumber=1;
+}
+message busTimetable{
+  string busTimetable=1;
+}
+
+message rentalCost{
+  string rentalCost=1;
+}
+
+
+message preciseLocation{
+  string preciseLocation=1;
+}
+
+
+message scooterSpecific{
+  string scooterSpecific=1;
+}
+message scooterAmount{
+  string scooterAmount=1;
+}
+
+message scooterDelete{
+  string scooterDelete=1;
+}

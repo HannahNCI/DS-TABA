@@ -1,5 +1,0 @@
-package escooterGrpc;
-
-public class escooterBlockingStub {
-
-}

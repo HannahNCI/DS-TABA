@@ -18,5 +18,17 @@
     <fullyQualifiedTypeName name="com.smartcityDS.busstopLocation"/>
     <fullyQualifiedTypeName name="com.smartcityDS.preciseLocation"/>
     <fullyQualifiedTypeName name="com.smartcityDS.locationPrecise"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.ecar.smartcityDSGrpc"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.ecar.preciseLocation"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.ecar.smartcityDSGrpc.smartcityDSImplBase"/>
     <fullyQualifiedTypeName name="com.smartcityDS.smartcityDSBlockingStub"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.escooter.smartcityDSGrpc"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.ebus.busNumber"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.ebus.busTimetable"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.escooter.preciseLocation"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.escooter.scooterSpecific"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.escooter.scooterAvailability"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.ebus.busDelete"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.ebus.smartcityDSGrpc"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.ecar.carDelete"/>
 </qualifiedTypeNameHistroy>

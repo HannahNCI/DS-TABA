@@ -1,0 +1,21 @@
+package com.smartcityDS;
+
+import grpcSmartCity.ebus.busNumber;
+import grpcSmartCity.ebus.busTimetable;
+import grpcSmartCity.ecar.pluginAvailability;
+import grpcSmartCity.ecar.preciseLocation;
+import io.grpc.ManagedChannel;
+
+public class smartcityDSBlockingStub {
+
+	public busTimetable getbusTimetable(ManagedChannel requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public pluginAvailability getpluginAvailability(preciseLocation requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

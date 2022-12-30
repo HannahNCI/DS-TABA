@@ -1,0 +1,32 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "grpcSmartCity.ebus";
+option java_outer_classname = "smartcityDSServiceImpl";
+package travelDS;
+
+service smartcityDS{
+  //get bus timetables
+  rpc getTimetable(busNumber) returns (busTimetable);
+  //seeing all busses out of specific bus type
+  rpc seeBus(busSpecific) returns (busAmount);
+  //delete busses
+  rpc deleteBus(busNumber) returns (busDelete);
+}
+
+message busNumber{
+  string busNumber=1;
+}
+message busTimetable{
+  string busTimetable=1;
+}
+
+message busSpecific{
+  string busSpecific=1;
+}
+message busAmount{
+  string busAmount=1;
+}
+
+message busDelete{
+  string busDelete=1;
+}

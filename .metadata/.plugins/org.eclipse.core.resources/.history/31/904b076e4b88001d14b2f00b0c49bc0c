@@ -1,0 +1,5 @@
+package grpcSmartCity.ebus;
+
+public class busServer {
+
+}

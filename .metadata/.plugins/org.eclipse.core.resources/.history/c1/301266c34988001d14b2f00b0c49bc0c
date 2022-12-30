@@ -1,0 +1,5 @@
+package grpcSmartCity.escooter;
+
+public class scooterServer {
+
+}
