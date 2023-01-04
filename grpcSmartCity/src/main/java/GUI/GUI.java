@@ -4,36 +4,37 @@ import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.grpc.stub.StreamObserver;
 import sun.security.x509.IPAddressName;
-import javax.jmdns.JmDNS;
-import javax.jmdns.ServiceEvent;
-import javax.jmdns.ServiceInfo;
-import javax.jmdns.ServiceListener;
-import javax.swing.*;
-
-import com.smartcityDS.smartcityDSBlockingStub;
-
 import grpcSmartCity.ebus.*;
 import grpcSmartCity.ebus.smartcityDSGrpc;
 import grpcSmartCity.ecar.*;
 import grpcSmartCity.ecar.preciseLocation;
 import grpcSmartCity.escooter.*;
+import grpcSmartCity.ebus.smartcityDSGrpc.smartcityDSBlockingStub;
+import javax.jmdns.JmDNS;
+import javax.jmdns.ServiceEvent;
+import javax.jmdns.ServiceInfo;
+import javax.jmdns.ServiceListener;
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import grpcSmartCity.ebus.smartcityDSGrpc.*;
+import grpcSmartCity.ebus.smartcityDSGrpc.smartcityDSStub;
+
 
 public class GUI {
     public JFrame frame;
-    public static ServiceInfo serviceinfo;
-    public static grpcSmartCity.ebus.smartcityDSGrpc.smartcityDSBlockingStub smartcitydsstub;
     private JTextField BusTf;
     private JTextField CarTf;
     private JTextField ScooterTf;
     private JTextField deleteBusTf;
     private JTextField deleteScooterTf;
     private JTextField deleteScootTf;
+    public static ServiceInfo serviceinfo;
+    public static smartcityDSBlockingStub smartcitydsstub;
     public static void main (String[]args){
         EventQueue.invokeLater(new Runnable() {
             @Override
@@ -47,15 +48,13 @@ public class GUI {
             }
         });
 }
-    public GUI() throws Exception {
-    	String service_type = "smartcity_tcp.local.";
-        discoveryService(service_type);
-        //String host = serviceinfo.getHostAddresses()[0];
-        //ManagedChannel channel = ManagedChannelBuilder.forAddress(host, 50053).usePlaintext().build();
-        //ManagedChannel channel2 = ManagedChannelBuilder.forAddress(host, 50052).usePlaintext().build();
-        //ManagedChannel channel3 = ManagedChannelBuilder.forAddress(host, 50054).usePlaintext().build();
-        //smartcitydsstub = smartcityDSGrpc.newBlockingStub(channel);
-		intializer();
+    public GUI() throws IOException, InterruptedException {
+        String service_type = "_smartcity._tcp.local.";
+        ManagedChannel channel = ManagedChannelBuilder
+				.forAddress("localhost", 50051)
+				.usePlaintext()
+				.build();
+        intializer();
     }
 
     public void discoveryService(String service_type) throws IOException, InterruptedException {
@@ -244,22 +243,7 @@ public class GUI {
         deleteScooterTf.setBounds(343, 407, 135, 31);
         frame.getContentPane().add(deleteScooterTf);
     }
-	
 
-    class MyServiceListener implements ServiceListener {
-        public void serviceAdded(ServiceEvent event) {
-            System.out.println("Service added: " + event.getInfo());
-        }
-
-        public void serviceRemoved(ServiceEvent event) {
-            System.out.println("Service removed: " + event.getInfo());
-        }
-
-        public void serviceResolved(ServiceEvent event) {
-            System.out.println("Service resolved: " + event.getInfo());
-            serviceinfo = event.getInfo();
-        }
-    }
-        });
+});
 }
 }

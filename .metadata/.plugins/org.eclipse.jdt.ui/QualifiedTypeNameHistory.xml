@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.smartcityDS.userGrpc.userImplBase"/>
     <fullyQualifiedTypeName name="com.smartcityDS.ebusGrpc.ebusImplBase"/>
-    <fullyQualifiedTypeName name="javax.jmdns.ServiceInfo"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.net.InetAddress"/>
     <fullyQualifiedTypeName name="javax.jmdns.JmDNS"/>
@@ -25,12 +24,14 @@
     <fullyQualifiedTypeName name="grpcSmartCity.escooter.scooterSpecific"/>
     <fullyQualifiedTypeName name="grpcSmartCity.escooter.scooterAvailability"/>
     <fullyQualifiedTypeName name="grpcSmartCity.ebus.busDelete"/>
-    <fullyQualifiedTypeName name="grpcSmartCity.ebus.smartcityDSGrpc"/>
-    <fullyQualifiedTypeName name="grpcSmartCity.ecar.carDelete"/>
     <fullyQualifiedTypeName name="io.grpc.ManagedChannel"/>
     <fullyQualifiedTypeName name="io.grpc.ManagedChannelBuilder"/>
     <fullyQualifiedTypeName name="grpcSmartCity.escooter.smartcityDSGrpc"/>
     <fullyQualifiedTypeName name="grpcSmartCity.ebus.smartcityDSGrpc.smartcityDSImplBase"/>
     <fullyQualifiedTypeName name="grpcSmartCity.escooter.smartcityDSGrpc.smartcityDSImplBase"/>
     <fullyQualifiedTypeName name="grpcSmartCity.ecar.smartcityDSGrpc.smartcityDSImplBase"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.ecar.carDelete"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.ebus.smartcityDSGrpc"/>
+    <fullyQualifiedTypeName name="grpcSmartCity.ebus.smartcityDSGrpc.smartcityDSBlockingStub"/>
+    <fullyQualifiedTypeName name="javax.jmdns.ServiceInfo"/>
 </qualifiedTypeNameHistroy>

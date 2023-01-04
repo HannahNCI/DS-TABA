@@ -5,10 +5,8 @@ import io.grpc.ServerBuilder;
 
 import javax.jmdns.JmDNS;
 import javax.jmdns.ServiceInfo;
-
-import grpcSmartCity.ebus.smartcityDSGrpc.smartcityDSImplBase;
-
 import java.io.FileInputStream;
+import grpcSmartCity.ebus.smartcityDSGrpc.smartcityDSImplBase;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.InetAddress;

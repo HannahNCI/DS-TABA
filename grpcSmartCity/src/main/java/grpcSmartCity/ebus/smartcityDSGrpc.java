@@ -452,17 +452,17 @@ public final class smartcityDSGrpc {
           getChannel(), getDeleteBusMethod(), getCallOptions(), request);
     }
 
-	public scooterDelete deleteScooter(pluginAvailability request) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 	public pluginAvailability getpluginAvailability(preciseLocation requests) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	public scooterAvailability getScooterAvailability(preciseLocation requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public scooterDelete deleteScooter(pluginAvailability request) {
 		// TODO Auto-generated method stub
 		return null;
 	}

@@ -5,16 +5,14 @@ import io.grpc.ServerBuilder;
 
 import javax.jmdns.JmDNS;
 import javax.jmdns.ServiceInfo;
-
-import grpcSmartCity.ecar.smartcityDSGrpc.smartcityDSImplBase;
-
 import java.io.FileInputStream;
+import grpcSmartCity.ecar.smartcityDSGrpc.smartcityDSImplBase;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.InetAddress;
 import java.util.Properties;
 
-//car server class
+//bus server class
 public class carServer extends smartcityDSImplBase{
 
     public static void main(String[] args) throws IOException, InterruptedException {
