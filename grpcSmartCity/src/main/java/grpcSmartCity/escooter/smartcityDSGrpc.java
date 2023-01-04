@@ -15,8 +15,6 @@ import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
 
-import io.grpc.stub.StreamObserver;
-
 /**
  */
 @javax.annotation.Generated(
@@ -305,16 +303,6 @@ public final class smartcityDSGrpc {
                   this, METHODID_DELETE_SCOOTER)))
           .build();
     }
-
-	public void deleteScooter(scooterAmount request, StreamObserver<scooterDelete> responseObserver) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void getScooterAvailability(scooterAmount request, StreamObserver<scooterAvailability> responseObserver) {
-		// TODO Auto-generated method stub
-		
-	}
   }
 
   /**

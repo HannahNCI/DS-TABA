@@ -1,30 +1,23 @@
 package grpcSmartCity.escooter;
 
-import io.grpc.BindableService;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
-import io.grpc.stub.StreamObserver;
+
+import javax.jmdns.JmDNS;
+import javax.jmdns.ServiceInfo;
+
+import grpcSmartCity.escooter.smartcityDSGrpc.smartcityDSImplBase;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.InetAddress;
-import java.net.UnknownHostException;
-import java.util.ArrayList;
 import java.util.Properties;
-import javax.jmdns.JmDNS;
-import javax.jmdns.ServiceInfo;
-import org.apache.commons.lang3.ArrayUtils;
-
-import grpcSmartCity.escooter.smartcityDSGrpc.smartcityDSImplBase;
 
 //scooter server class
 public class scooterServer extends smartcityDSImplBase{
 
-    static int [] scooters = {1,9,11,4};
-
-
     public static void main(String[] args) throws IOException, InterruptedException {
-
         scooterServer server = new scooterServer();
         Properties prop = server.getProperties();
         server.register(prop);
@@ -40,24 +33,21 @@ public class scooterServer extends smartcityDSImplBase{
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-
     }
-
-    public Properties getProperties() {
-        Properties p = null;
+    public Properties getProperties(){
+        Properties pt = null;
         try (InputStream input = new FileInputStream("src/main/resources/properties/escooter.properties")) {
-            p = new Properties();
-            p.load(input);
+            pt = new Properties();
+            pt.load(input);
             System.out.println("Service properties...");
-            System.out.println("\t service_description: " + p.getProperty("service_description"));
-            System.out.println("\t service_type: " + p.getProperty("service_type"));
-            System.out.println("\t service_name: " + p.getProperty("service_name"));
-            System.out.println("\t service_port: " + p.getProperty("service_port"));
+            System.out.println("\t service_description: " + pt.getProperty("service_description"));
+            System.out.println("\t service_type: " + pt.getProperty("service_type"));
+            System.out.println("\t service_name: " + pt.getProperty("service_name"));
+            System.out.println("\t service_port: " + pt.getProperty("service_port"));
         } catch (IOException ex) {
             ex.printStackTrace();
         }
-        return p;
+        return pt;
 
     }
 
@@ -79,41 +69,4 @@ public class scooterServer extends smartcityDSImplBase{
         Thread.sleep(1000);
     }
 
-    @Override
-    //delete scooter request
-    public void deleteScooter(scooterAmount request, StreamObserver<scooterDelete> responseObserver) {
-
-        int scooterrequest = Integer.parseInt(request.getScooterAmount());
-
-        for (int i = 0; i < scooters.length; i++) {
-            if (scooterrequest == scooters[i]) {
-                //removing scooters from system
-                scooters = ArrayUtils.remove(scooters, i);
-                scooterDelete reply = scooterDelete.newBuilder().setScooterDelete("Positive").build();
-                responseObserver.onNext(reply);
-                break;
-            } else {
-                scooterDelete reply = scooterDelete.newBuilder().setScooterDelete("Negitive").build();
-                responseObserver.onNext(reply);
-                break;
-            }
-        }
-        responseObserver.onCompleted();
-    }
-
-    @Override
-    //get amount of scooters
-    public void seeScooter (scooterSpecific request, StreamObserver<scooterAmount> responseObserver){
-        scooterAmount reply = scooterAmount.newBuilder().setScooterAmount(String.valueOf(scooters)).build();
-        responseObserver.onNext(reply);
-        responseObserver.onCompleted();
-    }
-
-    @Override
-    //Is Scooter Available?
-    public void getScooterAvailability(scooterAmount request, StreamObserver<scooterAvailability> responseObserver){
-        scooterAvailability reply = scooterAvailability.newBuilder().setScooterAvailability("Sold Out").build();
-        responseObserver.onNext(reply);
-        responseObserver.onCompleted();
-    }
 }

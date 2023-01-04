@@ -49,12 +49,12 @@ public class GUI {
         });
 }
     public GUI() throws Exception {
-    	//String service_type = "smartcity_tcp.local.";
-        //discoveryService(service_type);
+    	String service_type = "smartcity_tcp.local.";
+        discoveryService(service_type);
         //String host = serviceinfo.getHostAddresses()[0];
         //ManagedChannel channel = ManagedChannelBuilder.forAddress(host, 50053).usePlaintext().build();
         //ManagedChannel channel2 = ManagedChannelBuilder.forAddress(host, 50052).usePlaintext().build();
-        //ManagedChannel channel3 = ManagedChannelBuilder.forAddress(host, 50051).usePlaintext().build();
+        //ManagedChannel channel3 = ManagedChannelBuilder.forAddress(host, 50054).usePlaintext().build();
         //smartcitydsstub = smartcityDSGrpc.newBlockingStub(channel);
         intializer();
     }
@@ -106,12 +106,12 @@ public class GUI {
                 }
          	  }
        });
-        btnDeleteScoot.setBounds(271, 373, 135, 23);
+        btnDeleteScoot.setBounds(343, 373, 135, 23);
         frame.getContentPane().add(btnDeleteScoot);
         
         deleteScootTf = new JTextField();
         deleteScootTf.setColumns(10);
-        deleteScootTf.setBounds(271, 407, 150, 31);
+        deleteScootTf.setBounds(343, 407, 150, 31);
         frame.getContentPane().add(deleteScootTf);
     }
         private void ui(JFrame frame2) {
@@ -214,13 +214,39 @@ public class GUI {
         	}
         });
   
-        btndeleteBus.setBounds(101, 373, 115, 23);
+        btndeleteBus.setBounds(24, 373, 115, 23);
         frame.getContentPane().add(btndeleteBus);
         
         deleteBusTf = new JTextField();
         deleteBusTf.setColumns(10);
-        deleteBusTf.setBounds(84, 407, 159, 31);
+        deleteBusTf.setBounds(10, 407, 159, 31);
         frame.getContentPane().add(deleteBusTf);
+        
+        JButton btndeleteCar = new JButton("Delete Car");
+        btndeleteCar.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        		try{
+                    //if non convertable string is entered it will fail to convert and not send message
+                    int number = Integer.parseInt(deleteCarTf.getText());
+                    pluginAvailability request = pluginAvailability.newBuilder().setPluginAvailability(deleteCarTf.getText()).build();
+                    carDelete hellos = smartcitydsstub.deleteCar(request);
+                    JOptionPane.showMessageDialog(frame, hellos.getcarDelete());
+                }
+                //error handling
+                catch(Exception yes){
+                    JOptionPane.showMessageDialog(frame, "Only Numbers");
+                }
+            }
+
+
+        });
+        btndeleteCar.setBounds(196, 373, 115, 23);
+        frame.getContentPane().add(btndeleteCar);
+        
+        deleteCarTf = new JTextField();
+        deleteCarTf.setColumns(10);
+        deleteCarTf.setBounds(183, 407, 150, 31);
+        frame.getContentPane().add(deleteCarTf);
         
         JButton btndeleteScooter = new JButton("Delete Scooter");
         btndeleteScooter.addActionListener(new ActionListener() {

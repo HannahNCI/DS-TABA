@@ -36,7 +36,7 @@ public class carServer extends smartcityDSImplBase{
     }
     public Properties getProperties(){
         Properties pt = null;
-        try (InputStream input = new FileInputStream("src/main/resources/properties/car.properties")) {
+        try (InputStream input = new FileInputStream("src/main/resources/properties/plugin.properties")) {
             pt = new Properties();
             pt.load(input);
             System.out.println("Service properties...");
