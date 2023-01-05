@@ -15,10 +15,15 @@ import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
 
+import grpcSmartCity.ecar.carDelete;
+import grpcSmartCity.ecar.pluginAmount;
 import grpcSmartCity.ecar.pluginAvailability;
+import grpcSmartCity.ecar.pluginSpecific;
 import grpcSmartCity.ecar.preciseLocation;
+import grpcSmartCity.escooter.rentalCost;
 import grpcSmartCity.escooter.scooterAvailability;
 import grpcSmartCity.escooter.scooterDelete;
+import io.grpc.ManagedChannel;
 
 /**
  */
@@ -452,7 +457,27 @@ public final class smartcityDSGrpc {
           getChannel(), getDeleteBusMethod(), getCallOptions(), request);
     }
 
+	public busAmount getBusAmount(busNumber requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public preciseLocation getpluginAmount(preciseLocation requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public pluginAmount getPluginAmount(pluginAmount requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	public pluginAvailability getpluginAvailability(preciseLocation requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public carDelete deleteCar(pluginSpecific request) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -462,7 +487,12 @@ public final class smartcityDSGrpc {
 		return null;
 	}
 
-	public scooterDelete deleteScooter(pluginAvailability request) {
+	public scooterDelete deleteScooter(pluginSpecific request) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public rentalCost getRentalCost(ManagedChannel requests) {
 		// TODO Auto-generated method stub
 		return null;
 	}

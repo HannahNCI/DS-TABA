@@ -1,4 +1,0 @@
-service_type = smartcity._tcp.local.
-service_name = userInfo
-service_description = Service for user Info
-service_port = 9090

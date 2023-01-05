@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="ServiceInfo"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="Delete"/>
+			<item value="getPluginAvailability"/>
+			<item value="trains"/>
+			<item value="only numbers"/>
+			<item value="not available"/>
 			<item value="javax.jmdns.ServiceInfo.getHostAddresses"/>
 			<item value="serviceinfo"/>
 			<item value="ServiceInfo"/>
@@ -18,13 +23,10 @@
 			<item value="registration"/>
 			<item value="train"/>
 			<item value="scooter"/>
-			<item value="Train"/>
-			<item value="trains"/>
-			<item value="servicetype"/>
-			<item value="service"/>
-			<item value="Sc"/>
 		</list>
 		<list key="replacehistory">
+			<item value="bus&apos;s"/>
+			<item value="Not Available"/>
 			<item value="scooter"/>
 			<item value="smartcityds"/>
 			<item value="bus"/>

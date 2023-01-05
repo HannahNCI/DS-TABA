@@ -1,4 +1,0 @@
-service_type = smartcity._tcp.local.
-service_name = carInfo
-service_description = Service for car Info
-service_port = 9090

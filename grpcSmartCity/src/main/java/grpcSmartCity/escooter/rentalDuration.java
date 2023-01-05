@@ -3,6 +3,8 @@
 
 package grpcSmartCity.escooter;
 
+import io.grpc.ManagedChannelBuilder;
+
 /**
  * Protobuf type {@code grpcSmartCity.rentalDuration}
  */
@@ -497,6 +499,11 @@ private static final long serialVersionUID = 0L;
         final com.google.protobuf.UnknownFieldSet unknownFields) {
       return super.mergeUnknownFields(unknownFields);
     }
+
+	public ManagedChannelBuilder setRentalCost(String text) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 
     // @@protoc_insertion_point(builder_scope:grpcSmartCity.rentalDuration)

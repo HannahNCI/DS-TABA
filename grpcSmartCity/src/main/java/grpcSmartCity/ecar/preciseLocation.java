@@ -536,6 +536,10 @@ private static final long serialVersionUID = 0L;
   public grpcSmartCity.ecar.preciseLocation getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
+public Object getpluginAmount() {
+	// TODO Auto-generated method stub
+	return null;
+}
 
 }
 
