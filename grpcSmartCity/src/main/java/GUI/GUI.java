@@ -17,6 +17,7 @@ import javax.jmdns.JmDNS;
 import javax.jmdns.ServiceEvent;
 import javax.jmdns.ServiceInfo;
 import javax.jmdns.ServiceListener;
+import javax.print.attribute.standard.PrinterResolution;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -24,8 +25,6 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-
-
 
 public class GUI {
     public JFrame frame;
@@ -69,27 +68,66 @@ public class GUI {
         intializer();
     }
 
-    public void discoveryService(String service_type) throws IOException, InterruptedException {
-        JmDNS jmdns = JmDNS.create(InetAddress.getLocalHost());
-        jmdns.addServiceListener(service_type, new MyServiceListener());
-        Thread.sleep(10000);
-        jmdns.close();
-    }
+	private void discoverMathService(String service_type) {
+		
+		
+		try {
+			// Create a JmDNS instance
+			JmDNS jmdns = JmDNS.create(InetAddress.getLocalHost());
 
-    private static class MyServiceListener implements ServiceListener {
-        public void serviceAdded(ServiceEvent event) {
-            System.out.println("Service added: " + event.getInfo());
-        }
+				
+			jmdns.addServiceListener(service_type, new ServiceListener() {
+				
+				@Override
+				public void serviceResolved(ServiceEvent event) {
+					System.out.println("Math Service resolved: " + event.getInfo());
 
-        public void serviceRemoved(ServiceEvent event) {
-            System.out.println("Service removed: " + event.getInfo());
-        }
+					serviceinfo = event.getInfo();
 
-        public void serviceResolved(ServiceEvent event) {
-            System.out.println("Service resolved: " + event.getInfo());
-            serviceinfo = event.getInfo();
-        }
-    }
+					int port = serviceinfo.getPort();
+					
+					System.out.println("resolving " + service_type + " with properties ...");
+					System.out.println("\t port: " + port);
+					System.out.println("\t type:"+ event.getType());
+					System.out.println("\t name: " + event.getName());
+					System.out.println("\t description/properties: " + serviceinfo.getNiceTextString());
+					System.out.println("\t host: " + serviceinfo.getHostAddresses()[0]);
+				
+					
+				}
+				
+				@Override
+				public void serviceRemoved(ServiceEvent event) {
+					System.out.println("Service removed: " + event.getInfo());
+
+					
+				}
+				
+				@Override
+				public void serviceAdded(ServiceEvent event) {
+					System.out.println("Math Service added: " + event.getInfo());
+
+					
+				}
+			});
+			
+			// Wait a bit
+			Thread.sleep(2000);
+			
+			jmdns.close();
+
+		} catch (UnknownHostException e) {
+			System.out.println(e.getMessage());
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
 	public void intializer(){
         frame = new JFrame();
         frame.getContentPane().setBackground(SystemColor.activeCaption);
@@ -248,6 +286,7 @@ public class GUI {
                     preciseLocation requests = preciseLocation.newBuilder().setPreciseLocation(BusNumberTF.getText()).build();
                     preciseLocation reply =  smartcitydsstub.getpluginAmount(requests);
                     JOptionPane.showMessageDialog(frame, reply.getpluginAmount());
+                    
 
                 }
               //error handling
@@ -256,6 +295,8 @@ public class GUI {
                 }
             }
         });
+     
+
         btnCarLocation.setBounds(24, 415, 158, 23);
         frame.getContentPane().add(btnCarLocation);
         

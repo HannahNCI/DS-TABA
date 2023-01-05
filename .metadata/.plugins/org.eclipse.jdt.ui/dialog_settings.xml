@@ -12,7 +12,7 @@
 	</section>
 	<section name="quick_assist_proposal_size">
 		<item key="size.x" value="385"/>
-		<item key="size.y" value="291"/>
+		<item key="size.y" value="302"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
@@ -34,11 +34,11 @@
 	<section name="JavaSearchPage">
 		<item key="CASE_SENSITIVE" value="false"/>
 		<item key="INCLUDE_MASK" value="11"/>
-		<item key="HISTORY_SIZE" value="10"/>
+		<item key="HISTORY_SIZE" value="12"/>
 		<section name="HISTORY0">
 			<item key="searchFor" value="0"/>
 			<item key="scope" value="0"/>
-			<item key="pattern" value="get"/>
+			<item key="pattern" value="return"/>
 			<item key="limitTo" value="2"/>
 			<item key="matchLocations" value="0"/>
 			<item key="javaElement" value=""/>
@@ -50,7 +50,7 @@
 		<section name="HISTORY1">
 			<item key="searchFor" value="0"/>
 			<item key="scope" value="0"/>
-			<item key="pattern" value="serviceinfo"/>
+			<item key="pattern" value="get"/>
 			<item key="limitTo" value="2"/>
 			<item key="matchLocations" value="0"/>
 			<item key="javaElement" value=""/>
@@ -62,7 +62,7 @@
 		<section name="HISTORY2">
 			<item key="searchFor" value="0"/>
 			<item key="scope" value="0"/>
-			<item key="pattern" value="GUI.serviceinfo"/>
+			<item key="pattern" value="getBusumber"/>
 			<item key="limitTo" value="2"/>
 			<item key="matchLocations" value="0"/>
 			<item key="javaElement" value=""/>
@@ -74,7 +74,7 @@
 		<section name="HISTORY3">
 			<item key="searchFor" value="0"/>
 			<item key="scope" value="0"/>
-			<item key="pattern" value="getHostAddresses"/>
+			<item key="pattern" value="getbusNumber"/>
 			<item key="limitTo" value="2"/>
 			<item key="matchLocations" value="0"/>
 			<item key="javaElement" value=""/>
@@ -84,9 +84,9 @@
 			</list>
 		</section>
 		<section name="HISTORY4">
-			<item key="searchFor" value="0"/>
+			<item key="searchFor" value="1"/>
 			<item key="scope" value="0"/>
-			<item key="pattern" value="javax.jmdns.ServiceInfo.getHostAddresses"/>
+			<item key="pattern" value="getbus"/>
 			<item key="limitTo" value="2"/>
 			<item key="matchLocations" value="0"/>
 			<item key="javaElement" value=""/>
@@ -96,9 +96,9 @@
 			</list>
 		</section>
 		<section name="HISTORY5">
-			<item key="searchFor" value="2"/>
+			<item key="searchFor" value="0"/>
 			<item key="scope" value="0"/>
-			<item key="pattern" value="getHostAdd"/>
+			<item key="pattern" value="serviceinfo"/>
 			<item key="limitTo" value="2"/>
 			<item key="matchLocations" value="0"/>
 			<item key="javaElement" value=""/>
@@ -110,7 +110,7 @@
 		<section name="HISTORY6">
 			<item key="searchFor" value="0"/>
 			<item key="scope" value="0"/>
-			<item key="pattern" value="jmDNS"/>
+			<item key="pattern" value="GUI.serviceinfo"/>
 			<item key="limitTo" value="2"/>
 			<item key="matchLocations" value="0"/>
 			<item key="javaElement" value=""/>
@@ -122,7 +122,7 @@
 		<section name="HISTORY7">
 			<item key="searchFor" value="0"/>
 			<item key="scope" value="0"/>
-			<item key="pattern" value="ServiceInfo"/>
+			<item key="pattern" value="getHostAddresses"/>
 			<item key="limitTo" value="2"/>
 			<item key="matchLocations" value="0"/>
 			<item key="javaElement" value=""/>
@@ -134,7 +134,7 @@
 		<section name="HISTORY8">
 			<item key="searchFor" value="0"/>
 			<item key="scope" value="0"/>
-			<item key="pattern" value="jmdns"/>
+			<item key="pattern" value="javax.jmdns.ServiceInfo.getHostAddresses"/>
 			<item key="limitTo" value="2"/>
 			<item key="matchLocations" value="0"/>
 			<item key="javaElement" value=""/>
@@ -146,7 +146,31 @@
 		<section name="HISTORY9">
 			<item key="searchFor" value="2"/>
 			<item key="scope" value="0"/>
-			<item key="pattern" value="service"/>
+			<item key="pattern" value="getHostAdd"/>
+			<item key="limitTo" value="2"/>
+			<item key="matchLocations" value="0"/>
+			<item key="javaElement" value=""/>
+			<item key="isCaseSensitive" value="false"/>
+			<item key="includeMask" value="11"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY10">
+			<item key="searchFor" value="0"/>
+			<item key="scope" value="0"/>
+			<item key="pattern" value="jmDNS"/>
+			<item key="limitTo" value="2"/>
+			<item key="matchLocations" value="0"/>
+			<item key="javaElement" value=""/>
+			<item key="isCaseSensitive" value="false"/>
+			<item key="includeMask" value="11"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY11">
+			<item key="searchFor" value="0"/>
+			<item key="scope" value="0"/>
+			<item key="pattern" value="ServiceInfo"/>
 			<item key="limitTo" value="2"/>
 			<item key="matchLocations" value="0"/>
 			<item key="javaElement" value=""/>

@@ -34,4 +34,5 @@
     <fullyQualifiedTypeName name="grpcSmartCity.ebus.smartcityDSGrpc"/>
     <fullyQualifiedTypeName name="grpcSmartCity.ebus.smartcityDSGrpc.smartcityDSBlockingStub"/>
     <fullyQualifiedTypeName name="javax.jmdns.ServiceInfo"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

@@ -477,6 +477,11 @@ public final class smartcityDSGrpc {
 		return null;
 	}
 
+	public rentalCost getRentalCost(ManagedChannel requests) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	public carDelete deleteCar(pluginSpecific request) {
 		// TODO Auto-generated method stub
 		return null;
@@ -488,11 +493,6 @@ public final class smartcityDSGrpc {
 	}
 
 	public scooterDelete deleteScooter(pluginSpecific request) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public rentalCost getRentalCost(ManagedChannel requests) {
 		// TODO Auto-generated method stub
 		return null;
 	}

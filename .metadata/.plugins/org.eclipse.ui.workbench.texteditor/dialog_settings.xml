@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="getBus"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="getbus"/>
+			<item value="get"/>
+			<item value="return"/>
+			<item value="ger"/>
 			<item value="Delete"/>
 			<item value="getPluginAvailability"/>
 			<item value="trains"/>
@@ -19,10 +23,6 @@
 			<item value="GUI.ServiceInfo"/>
 			<item value="service info"/>
 			<item value="bus"/>
-			<item value="grpcSmartCity"/>
-			<item value="registration"/>
-			<item value="train"/>
-			<item value="scooter"/>
 		</list>
 		<list key="replacehistory">
 			<item value="bus&apos;s"/>
